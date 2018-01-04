@@ -1,4 +1,4 @@
-TO_LINK := .zshrc .tmux.conf .vimrc .vim
+TO_LINK := .zshrc .tmux.conf .vimrc .vim .ctags .global_ignore
 
 install:
 	for path in $(TO_LINK); do \
