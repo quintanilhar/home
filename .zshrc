@@ -1,5 +1,5 @@
-#export ZSH=/home/quintanilhar/.oh-my-zsh
-#export PATH="/home/quintanilhar/.composer/vendor/bin:$PATH"
+export ZSH="$HOME/.oh-my-zsh"
+export PATH="$HOME/homebrew/bin:$PATH"
 export EDITOR='vim'
 
 ZSH_THEME="robbyrussell"
