@@ -51,6 +51,10 @@ set incsearch
 set ignorecase
 set smartcase
 
+"Displaying hidden characters
+set list
+set listchars=tab:>-
+
 "Ignoring files and dirs in ctrlp.vim
 let g:ctrlp_custom_ignore = {
     \ 'dir':  '\v[\/](\.svn|\.git|conny|release|solrslave|tools|docs|tmp|data)$',
@@ -66,3 +70,9 @@ nmap <C-M> :NERDTreeFind<CR>
 map <C-F> :Ack 
 map <C-L> \c<space>
 map <C-T> :tabnew<CR>
+
+"Disabling Arrow Keys
+nnoremap <LEFT> <nop>
+nnoremap <DOWN> <nop>
+nnoremap <UP> <nop>
+nnoremap <RIGHT> <nop>
