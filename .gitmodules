@@ -31,3 +31,6 @@
 [submodule ".vim/bundle/vim-autotag"]
 	path = .vim/bundle/vim-autotag
 	url = git://github.com/craigemery/vim-autotag.git
+[submodule ".vim/bundle/vim-airline"]
+	path = .vim/bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
