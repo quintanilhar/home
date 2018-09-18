@@ -128,6 +128,11 @@ map <Leader>r :so $MYVIMRC<CR>
 map <Leader>tz :tabnew#<CR>
 map <Leader>t :!ctags -R *<CR><CR>
 
+"Buffer manipulation
+nnoremap <C-B> :buffer<Space>
+nnoremap <C-P> :bprev<CR>
+nnoremap <C-N> :bnext<CR>
+
 "Prevent vim to cut instead of deleting something
 nnoremap x "_x
 nnoremap d "_d
