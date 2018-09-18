@@ -21,6 +21,9 @@ set shiftwidth=4
 "Converts tab in spaces
 set expandtab
 
+"Allow backspacing over everything in insert mode
+set backspace=indent,eol,start
+
 "Syntax
 syntax on
 
