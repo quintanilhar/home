@@ -19,7 +19,7 @@ set tabstop=4
 set shiftwidth=4
 
 "Converts tab in spaces
-set expandtab
+"set expandtab
 
 "Allow backspacing over everything in insert mode
 set backspace=indent,eol,start
@@ -69,23 +69,30 @@ set showbreak=>\ \ \
 " Set leader to space bar
 let mapleader = "\<Space>"
 
-"Ignoring files and dirs in ctrlp.vim
+" Airline settings
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_idx_mode = 1
+let g:airline#extensions#tabline#keymap_ignored_filetypes = ['vimfiler', 'nerdtree']
+
+" Ctrlp settings
 let g:ctrlp_custom_ignore = {
     \ 'dir':  '\v[\/](\.svn|\.git|conny|release|solrslave|tools|docs|tmp|data)$',
     \ 'file': '\v\.(txt|png|gif|jpg|psd|bat|jar)$',
     \ }
 
-"Syntastic settings
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+" Syntastic settings
+"set statusline+=%#warningmsg#
+"set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
-" VDebug Mapping '/remote/path' : '/local/path' 10.128.130.18
+" VDebug settings
+
+" Mapping '/remote/path' : '/local/path' 10.128.130.18
 let g:vdebug_options = {
     \ "port": 9008,
     \ "server": "",
@@ -101,7 +108,6 @@ let g:vdebug_options = {
     \ "debug_window_level": 0,
     \ }
 
-" Keymap for Vdebug
 let g:vdebug_keymap = {
 \    "run" : "<Leader>/",
 \    "run_to_cursor" : "<Down>",
@@ -115,9 +121,17 @@ let g:vdebug_keymap = {
 \    "eval_under_cursor" : "<Leader>c"
 \}
 
+" Gutentags settings
+let g:gutentags_ctags_exclude = ['*.css', '*.html', '*.js', '*.json', '*.lock', '*.md']
+let g:gutentags_cache_dir = '~/.vim/gutentags'
+
+" Tagbar settings
+let g:tagbar_phpctags_bin='~/.vim/bundle/phpctags/bin/phpctags'
+
 "Mapping
 "map <F12> :NERDTreeFromBookmark
-map <C-E> :NERDTreeToggle <CR>
+map <Leader>nt :NERDTreeToggle<CR>
+map <Leader>tt :TagbarToggle<CR>
 nmap <C-M> :NERDTreeFind<CR>
 map <Leader>f :Ack
 map <Leader>ff :Ack "<cword>"<CR>
@@ -127,11 +141,25 @@ vmap <C-A> "+Y
 map <Leader>r :so $MYVIMRC<CR>
 map <Leader>tz :tabnew#<CR>
 map <Leader>t :!ctags -R *<CR><CR>
+map <silent> <Leader>jd :CtrlPTag<CR><c-\>w
+map <Leader>pb :CtrlPBuffer<CR>
 
 "Buffer manipulation
 nnoremap <C-B> :buffer<Space>
-nnoremap <C-P> :bprev<CR>
-nnoremap <C-N> :bnext<CR>
+nnoremap <Leader>bp :bprev<CR>
+nnoremap <Leader>bn :bnext<CR>
+
+nmap <leader>1 <Plug>AirlineSelectTab1
+nmap <leader>2 <Plug>AirlineSelectTab2
+nmap <leader>3 <Plug>AirlineSelectTab3
+nmap <leader>4 <Plug>AirlineSelectTab4
+nmap <leader>5 <Plug>AirlineSelectTab5
+nmap <leader>6 <Plug>AirlineSelectTab6
+nmap <leader>7 <Plug>AirlineSelectTab7
+nmap <leader>8 <Plug>AirlineSelectTab8
+nmap <leader>9 <Plug>AirlineSelectTab9
+nmap <leader>[ <Plug>AirlineSelectPrevTab
+nmap <leader>] <Plug>AirlineSelectNextTab
 
 "Prevent vim to cut instead of deleting something
 nnoremap x "_x

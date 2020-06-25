@@ -1,0 +1,889 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3480c6d/
+ACCOUNT_TYPE_MEMBER	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const ACCOUNT_TYPE_MEMBER = 3;$/;"	d	class:Accounting
+ACCOUNT_TYPE_PERFORMER	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const ACCOUNT_TYPE_PERFORMER = 2;$/;"	d	class:Accounting
+ACCOUNT_TYPE_STUDIO	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const ACCOUNT_TYPE_STUDIO = 1;$/;"	d	class:Accounting
+Accounting	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^class Accounting extends ApiAbstract$/;"	c
+Accounting	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^use Accounting;$/;"	a	namespace:DhJasmin\\SystemApi\\Controller	typeref:unknown:Accounting
+AccountingController	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^class AccountingController extends CommonApiController$/;"	c	namespace:DhJasmin\\SystemApi\\Controller
+AccountingController	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/AccountingControllerTest.php	/^use DhJasmin\\SystemApi\\Controller\\AccountingController;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:DhJasmin\\SystemApi\\Controller\\AccountingController
+AccountingControllerTest	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Functional/Controller/AccountingControllerTest.php	/^class AccountingControllerTest extends \\PHPUnit_Framework_TestCase$/;"	c	namespace:DhJasmin\\SystemApi\\Test\\Functional\\Controller
+AccountingControllerTest	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/AccountingControllerTest.php	/^class AccountingControllerTest extends PHPUnit_Framework_TestCase$/;"	c	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller
+AccountingTransaction	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^class AccountingTransaction$/;"	c
+ApiAbstract	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/ApiAbstract.php	/^abstract class ApiAbstract$/;"	c
+ApiCall	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/ApiCall.php	/^class ApiCall$/;"	c
+ApiCall	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/IndexController.php	/^use ApiCall;$/;"	a	namespace:DhJasmin\\SystemApi\\Controller	typeref:unknown:ApiCall
+Application	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^class Application$/;"	c
+Application	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^use Application;$/;"	a	namespace:DhJasmin\\SystemApi\\Controller	typeref:unknown:Application
+Application	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Functional/Controller/AccountingControllerTest.php	/^use Application;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Functional\\Controller	typeref:unknown:Application
+ApplicationEnvironment	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/bootstrap.php	/^use DhJasmin\\Bootstrap\\Enum\\ApplicationEnvironment;$/;"	a	typeref:unknown:DhJasmin\\Bootstrap\\Enum\\ApplicationEnvironment
+ApplicationEnvironment	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/secure.config.php	/^use DhJasmin\\Bootstrap\\Enum\\ApplicationEnvironment;$/;"	a	typeref:unknown:DhJasmin\\Bootstrap\\Enum\\ApplicationEnvironment
+ApplicationEnvironment	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^use DhJasmin\\Bootstrap\\Enum\\ApplicationEnvironment;$/;"	a	typeref:unknown:DhJasmin\\Bootstrap\\Enum\\ApplicationEnvironment
+ApplicationEnvironment	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/DevHelper.php	/^use DhJasmin\\Bootstrap\\Enum\\ApplicationEnvironment;$/;"	a	typeref:unknown:DhJasmin\\Bootstrap\\Enum\\ApplicationEnvironment
+ApplicationEnvironment	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/AccountingControllerTest.php	/^use DhJasmin\\Bootstrap\\Enum\\ApplicationEnvironment;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:DhJasmin\\Bootstrap\\Enum\\ApplicationEnvironment
+ApplicationEnvironment	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/IndexControllerTest.php	/^use DhJasmin\\Bootstrap\\Enum\\ApplicationEnvironment;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:DhJasmin\\Bootstrap\\Enum\\ApplicationEnvironment
+BALANCE_TYPE_ADMIN	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const BALANCE_TYPE_ADMIN = 3;$/;"	d	class:Accounting
+BALANCE_TYPE_PURCHASED	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const BALANCE_TYPE_PURCHASED = 4;$/;"	d	class:Accounting
+BALANCE_TYPE_REFERRAL	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const BALANCE_TYPE_REFERRAL = 2;$/;"	d	class:Accounting
+BALANCE_TYPE_WINNED	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const BALANCE_TYPE_WINNED = 1;$/;"	d	class:Accounting
+BG_BLACK	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const BG_BLACK      = 'black';$/;"	d	class:Console
+BG_BLUE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const BG_BLUE       = 'blue';$/;"	d	class:Console
+BG_CYAN	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const BG_CYAN       = 'cyan';$/;"	d	class:Console
+BG_GREEN	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const BG_GREEN      = 'green';$/;"	d	class:Console
+BG_LIGHT_GRAY	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const BG_LIGHT_GRAY = 'light_gray';$/;"	d	class:Console
+BG_MAGENTA	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const BG_MAGENTA    = 'magenta';$/;"	d	class:Console
+BG_RED	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const BG_RED        = 'red';$/;"	d	class:Console
+BG_YELLOW	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const BG_YELLOW     = 'yellow';$/;"	d	class:Console
+BONUS_CHECK_ONLY_FALSE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const BONUS_CHECK_ONLY_FALSE = 0;$/;"	d	class:Accounting
+BONUS_CHECK_ONLY_TRUE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const BONUS_CHECK_ONLY_TRUE = 1;$/;"	d	class:Accounting
+BONUS_CREDIT_CAMPAIGN_ID	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const BONUS_CREDIT_CAMPAIGN_ID = 2;$/;"	d	class:Accounting
+BONUS_RESULTSET_FALSE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const BONUS_RESULTSET_FALSE = 0;$/;"	d	class:Accounting
+BONUS_RESULTSET_TRUE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const BONUS_RESULTSET_TRUE = 1;$/;"	d	class:Accounting
+Bootstrap	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/bootstrap.php	/^use DhCore\\Bootstrap\\Bootstrap;$/;"	a	typeref:unknown:DhCore\\Bootstrap\\Bootstrap
+COLOR_MATCHING_REGEXP	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const COLOR_MATCHING_REGEXP = '\/\\033\\[([0-9]{1,2}(;[0-9]{1,2})?)?[m|K]\/';$/;"	d	class:Console
+CONTENT_DEBUG	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	const CONTENT_DEBUG = 'debug';$/;"	d	class:ResponseFormatHandlerApi
+CONTENT_ERROR_CODE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	const CONTENT_ERROR_CODE = 'error_code';$/;"	d	class:ResponseFormatHandlerApi
+CONTENT_ERROR_TYPE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	const CONTENT_ERROR_TYPE = 'error_type';$/;"	d	class:ResponseFormatHandlerApi
+CONTENT_REQUEST_PARAMS	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	const CONTENT_REQUEST_PARAMS = 'params';$/;"	d	class:ResponseFormatHandlerApi
+CONTENT_RESULT	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	const CONTENT_RESULT = 'result';$/;"	d	class:ResponseFormatHandlerApi
+CONTENT_STATUS	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	const CONTENT_STATUS = 'status';$/;"	d	class:ResponseFormatHandlerApi
+CREDIT_TYPE_CREDIT	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	const CREDIT_TYPE_CREDIT = 1;$/;"	d	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+CREDIT_TYPE_TOKEN	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	const CREDIT_TYPE_TOKEN = 2;$/;"	d	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+CodecAdapterInterface	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/CodecAdapterInterface.php	/^interface CodecAdapterInterface$/;"	i
+CodecAdapterJson	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/CodecAdapterJson.php	/^class CodecAdapterJson implements CodecAdapterInterface$/;"	c
+CommonApiController	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^class CommonApiController extends ControllerAbstract$/;"	c	namespace:DhJasmin\\SystemApi\\Controller
+CommonApiErrorController	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiErrorController.php	/^class CommonApiErrorController extends CommonApiController$/;"	c	namespace:DhJasmin\\SystemApi\\Controller
+CommonApiException	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/CommonApiException.php	/^class CommonApiException extends Exception {}/;"	c
+CommonApiException	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^use CommonApiException;$/;"	a	namespace:DhJasmin\\SystemApi\\Controller	typeref:unknown:CommonApiException
+CommonApiException	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/IndexController.php	/^use CommonApiException;$/;"	a	namespace:DhJasmin\\SystemApi\\Controller	typeref:unknown:CommonApiException
+CommonApiException	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/IndexControllerTest.php	/^use CommonApiException;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:CommonApiException
+CommonDateHelper	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonDateHelper.php	/^class CommonDateHelper$/;"	c
+CommonPretenceHelper	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^class CommonPretenceHelper$/;"	c
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/bootstrap.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/accounting.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/awards_api.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/awe.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/awe_api.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/channel_api.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/docler_media_convert_api.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/gallery_api.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/mailer_api.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/mobile_api.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/motivator_api.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/msc_api.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/partner_api.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/payment_api.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/search_api.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/secure.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/spam_filter_api.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/switchboard_gateway.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/system_api.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/user_api.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/wowza_api.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/dev/api.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/dev/module.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/dev/syslog.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/docker/api.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/docker/module.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/docker/syslog.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/prod/api.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/test/api.config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/test/config.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/DomainGenerator.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/ApiCall.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/SyslogApiQueue.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/LoggerSyslog.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/DevHelper.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^use DhCore\\Config\\Config;$/;"	a	namespace:DhJasmin\\SystemApi\\Controller	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/IndexController.php	/^use DhCore\\Config\\Config;$/;"	a	namespace:DhJasmin\\SystemApi\\Controller	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/AccountingControllerTest.php	/^use DhCore\\Config\\Config;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/IndexControllerTest.php	/^use DhCore\\Config\\Config;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:DhCore\\Config\\Config
+Config	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/web/index.php	/^use DhCore\\Config\\Config;$/;"	a	typeref:unknown:DhCore\\Config\\Config
+Console	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^class Console$/;"	c
+ControllerAbstract	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^abstract class ControllerAbstract$/;"	c
+ControllerAbstract	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^use ControllerAbstract;$/;"	a	namespace:DhJasmin\\SystemApi\\Controller	typeref:unknown:ControllerAbstract
+Curl	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^class Curl$/;"	c
+Curl	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/WL3Controller.php	/^use Curl;$/;"	a	namespace:DhJasmin\\SystemApi\\Controller	typeref:unknown:Curl
+CurlException	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^class CurlException extends Exception$/;"	c
+CurlException	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/WL3Controller.php	/^use CurlException;$/;"	a	namespace:DhJasmin\\SystemApi\\Controller	typeref:unknown:CurlException
+DECIMALS	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const DECIMALS = 2;$/;"	d	class:Accounting
+DEFAULT_TIMEZONE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonDateHelper.php	/^	const DEFAULT_TIMEZONE = 'Europe\/Budapest';$/;"	d	class:CommonDateHelper
+DETAIL_COMMISSION	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const DETAIL_COMMISSION   = 'commission';$/;"	d	class:Accounting
+DETAIL_IS_STRIPPED	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const DETAIL_IS_STRIPPED  = 'isStripped';$/;"	d	class:Accounting
+DETAIL_ROUND_MODE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const DETAIL_ROUND_MODE   = 'roundMode';$/;"	d	class:Accounting
+DETAIL_STRIPE_DETAILS	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const DETAIL_STRIPE_DETAILS = 'stripeDetails';$/;"	d	class:Accounting
+DETAIL_UNIT_DIVISOR	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const DETAIL_UNIT_DIVISOR = 'unitDivisor';$/;"	d	class:Accounting
+DEV_CONFIG_COOKIE_ID	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/DevHelper.php	/^	const DEV_CONFIG_COOKIE_ID = 'devConfig';$/;"	d	class:DevHelper
+Date	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/docker/php-fpm/php.ini	/^[Date]$/;"	s
+DebugConsole	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^use DhMinion\\Util\\Debug\\DebugConsole;$/;"	a	typeref:unknown:DhMinion\\Util\\Debug\\DebugConsole
+DevHelper	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/DevHelper.php	/^class DevHelper$/;"	c
+DhJasmin\\SystemApi\\Controller	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^namespace DhJasmin\\SystemApi\\Controller;$/;"	n
+DhJasmin\\SystemApi\\Controller	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^namespace DhJasmin\\SystemApi\\Controller;$/;"	n
+DhJasmin\\SystemApi\\Controller	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiErrorController.php	/^namespace DhJasmin\\SystemApi\\Controller;$/;"	n
+DhJasmin\\SystemApi\\Controller	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/ErrorController.php	/^namespace DhJasmin\\SystemApi\\Controller;$/;"	n
+DhJasmin\\SystemApi\\Controller	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/IndexController.php	/^namespace DhJasmin\\SystemApi\\Controller;$/;"	n
+DhJasmin\\SystemApi\\Controller	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/WL3Controller.php	/^namespace DhJasmin\\SystemApi\\Controller;$/;"	n
+DhJasmin\\SystemApi\\Test\\Functional\\Controller	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Functional/Controller/AccountingControllerTest.php	/^namespace DhJasmin\\SystemApi\\Test\\Functional\\Controller;$/;"	n
+DhJasmin\\SystemApi\\Test\\Unit\\Controller	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/AccountingControllerTest.php	/^namespace DhJasmin\\SystemApi\\Test\\Unit\\Controller;$/;"	n
+DhJasmin\\SystemApi\\Test\\Unit\\Controller	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/IndexControllerTest.php	/^namespace DhJasmin\\SystemApi\\Test\\Unit\\Controller;$/;"	n
+DhJasmin\\SystemApi\\Test\\Unit\\Controller	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/WL3ControllerTest.php	/^namespace DhJasmin\\SystemApi\\Test\\Unit\\Controller;$/;"	n
+DomainGenerator	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/DomainGenerator.php	/^class DomainGenerator$/;"	c
+EARNINGS_PREFIX	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const EARNINGS_PREFIX = 'earnings_';$/;"	d	class:Accounting
+ERROR_TYPE_API	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	const ERROR_TYPE_API = 'api';$/;"	d	class:ResponseFormatHandlerApi
+ERROR_TYPE_DB	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	const ERROR_TYPE_DB = 'db';$/;"	d	class:ResponseFormatHandlerApi
+ERROR_TYPE_GENERAL	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	const ERROR_TYPE_GENERAL = 'general';$/;"	d	class:ResponseFormatHandlerApi
+E_EXCEPTION	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const E_EXCEPTION = 1073741824;$/;"	d	class:ErrorHandlerAbstract
+EnvironmentSettingFactory	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/bootstrap.php	/^use DhJasmin\\Bootstrap\\EnvironmentSettingFactory;$/;"	a	typeref:unknown:DhJasmin\\Bootstrap\\EnvironmentSettingFactory
+Error	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	class Error extends Exception {}$/;"	c
+ErrorController	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/ErrorController.php	/^class ErrorController extends CommonApiErrorController {}/;"	c	namespace:DhJasmin\\SystemApi\\Controller
+ErrorHandlerAbstract	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^abstract class ErrorHandlerAbstract$/;"	c
+ErrorHandlerConsole	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^class ErrorHandlerConsole extends ErrorHandlerAbstract$/;"	c
+ErrorHandlerFile	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^class ErrorHandlerFile extends ErrorHandlerAbstract$/;"	c
+ErrorHandlerPool	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^class ErrorHandlerPool$/;"	c
+ErrorHandlerSyslog	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^class ErrorHandlerSyslog extends ErrorHandlerAbstract$/;"	c
+Events	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^class Events$/;"	c
+Exception	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^use Exception;$/;"	a	namespace:DhJasmin\\SystemApi\\Controller	typeref:unknown:Exception
+Exception	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/WL3Controller.php	/^use Exception;$/;"	a	namespace:DhJasmin\\SystemApi\\Controller	typeref:unknown:Exception
+Exception	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/AccountingControllerTest.php	/^use Exception;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:Exception
+Exception	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/IndexControllerTest.php	/^use Exception;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:Exception
+FG_BLACK	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const FG_BLACK        = 'black';$/;"	d	class:Console
+FG_BLUE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const FG_BLUE         = 'blue';$/;"	d	class:Console
+FG_BROWN	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const FG_BROWN        = 'brown';$/;"	d	class:Console
+FG_CYAN	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const FG_CYAN         = 'cyan';$/;"	d	class:Console
+FG_DARK_GRAY	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const FG_DARK_GRAY    = 'dark_grey';$/;"	d	class:Console
+FG_GREEN	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const FG_GREEN        = 'green';$/;"	d	class:Console
+FG_LIGHT_BLUE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const FG_LIGHT_BLUE   = 'light_blue';$/;"	d	class:Console
+FG_LIGHT_CYAN	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const FG_LIGHT_CYAN   = 'light_cyan';$/;"	d	class:Console
+FG_LIGHT_GRAY	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const FG_LIGHT_GRAY   = 'light_gray';$/;"	d	class:Console
+FG_LIGHT_GREEN	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const FG_LIGHT_GREEN  = 'light_green';$/;"	d	class:Console
+FG_LIGHT_PURPLE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const FG_LIGHT_PURPLE = 'light_purple';$/;"	d	class:Console
+FG_LIGHT_RED	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const FG_LIGHT_RED    = 'light_red';$/;"	d	class:Console
+FG_PURPLE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const FG_PURPLE       = 'purple';$/;"	d	class:Console
+FG_RED	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const FG_RED          = 'red';$/;"	d	class:Console
+FG_WHITE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const FG_WHITE        = 'white';$/;"	d	class:Console
+FG_YELLOW	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	const FG_YELLOW       = 'yellow';$/;"	d	class:Console
+FORCE_TRANSACTION	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const FORCE_TRANSACTION = true;$/;"	d	class:Accounting
+FOREIGN_GROUP_ID_AUCTION	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const FOREIGN_GROUP_ID_AUCTION = 3;$/;"	d	class:Accounting
+FOREIGN_GROUP_ID_PRIVATE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const FOREIGN_GROUP_ID_PRIVATE = 2;$/;"	d	class:Accounting
+FOREIGN_GROUP_ID_SECURE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const FOREIGN_GROUP_ID_SECURE = 1;$/;"	d	class:Accounting
+FORMAT_ATOM	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const FORMAT_ATOM = 'atom';$/;"	d	class:Response
+FORMAT_CSV	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const FORMAT_CSV  = 'csv';$/;"	d	class:Response
+FORMAT_GIF	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const FORMAT_GIF  = 'gif';$/;"	d	class:Response
+FORMAT_HTML	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const FORMAT_HTML = 'html';$/;"	d	class:Response
+FORMAT_JPG	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const FORMAT_JPG  = 'jpg';$/;"	d	class:Response
+FORMAT_JS	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const FORMAT_JS   = 'js';$/;"	d	class:Response
+FORMAT_JSON	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const FORMAT_JSON = 'json';$/;"	d	class:Response
+FORMAT_PNG	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const FORMAT_PNG  = 'png';$/;"	d	class:Response
+FORMAT_RDF	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const FORMAT_RDF  = 'rdf';$/;"	d	class:Response
+FORMAT_REAL_JSON	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const FORMAT_REAL_JSON = 'real_json';$/;"	d	class:Response
+FORMAT_RSS	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const FORMAT_RSS  = 'rss';$/;"	d	class:Response
+FORMAT_RSS2	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const FORMAT_RSS2 = 'rss2';$/;"	d	class:Response
+FORMAT_TXT	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const FORMAT_TXT  = 'txt';$/;"	d	class:Response
+FORMAT_XML	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const FORMAT_XML  = 'xml';$/;"	d	class:Response
+GET	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const GET = 'GET';$/;"	d	class:Request
+IResponseFormatHandler	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^interface IResponseFormatHandler$/;"	i
+IndexController	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/IndexController.php	/^class IndexController extends CommonApiController$/;"	c	namespace:DhJasmin\\SystemApi\\Controller
+IndexController	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/IndexControllerTest.php	/^use DhJasmin\\SystemApi\\Controller\\IndexController;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:DhJasmin\\SystemApi\\Controller\\IndexController
+IndexControllerTest	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/IndexControllerTest.php	/^class IndexControllerTest extends PHPUnit_Framework_TestCase$/;"	c	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller
+Json	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^use DhCore\\Json\\Json;$/;"	a	typeref:unknown:DhCore\\Json\\Json
+JsonException	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^use DhCore\\Json\\JsonException;$/;"	a	typeref:unknown:DhCore\\Json\\JsonException
+KEY_LISTENER	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const KEY_LISTENER = 'listener';$/;"	d	class:Events
+KEY_NAME	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const KEY_NAME = 'name';$/;"	d	class:Events
+LOG_LOCAL6	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/IndexControllerTest.php	/^		defined('LOG_LOCAL6') or define('LOG_LOCAL6', false);$/;"	d	function:DhJasmin\\SystemApi\\Test\\Unit\\Controller\\IndexControllerTest::testIndexMethod
+Log	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/Log.php	/^class Log$/;"	c
+LoggerAbstract	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/LoggerAbstract.php	/^abstract class LoggerAbstract$/;"	c
+LoggerSyslog	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/LoggerSyslog.php	/^class LoggerSyslog extends LoggerAbstract$/;"	c
+MEMBER_PURCHASE_ORDER_BONUS	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const MEMBER_PURCHASE_ORDER_BONUS = '2, 3, 4';$/;"	d	class:Accounting
+MEMBER_PURCHASE_ORDER_DEFAULT	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const MEMBER_PURCHASE_ORDER_DEFAULT = '1, 2, 3, 4';$/;"	d	class:Accounting
+MEMBER_PURCHASE_ORDER_SPENDING	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const MEMBER_PURCHASE_ORDER_SPENDING = '1, 2, 3, 4';$/;"	d	class:Accounting
+METHOD_GET	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/ApiAbstract.php	/^	const METHOD_GET  = 'get';$/;"	d	class:ApiAbstract
+METHOD_GET	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const METHOD_GET = 'get';$/;"	d	class:Curl
+METHOD_POST	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/ApiAbstract.php	/^	const METHOD_POST = 'post';$/;"	d	class:ApiAbstract
+METHOD_POST	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const METHOD_POST = 'post';$/;"	d	class:Curl
+MaintenanceException	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^class MaintenanceException extends Exception$/;"	c
+MockInterface	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/AccountingControllerTest.php	/^use Mockery\\MockInterface;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:Mockery\\MockInterface
+Mockery	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/AccountingControllerTest.php	/^use Mockery;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:Mockery
+Mockery	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/IndexControllerTest.php	/^use Mockery;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:Mockery
+Mockery	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/WL3ControllerTest.php	/^use Mockery;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:Mockery
+MultiLevelDomainGenerator	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/DomainGenerator.php	/^use DhCore\\DomainGenerator\\MultiLevelDomainGenerator;$/;"	a	typeref:unknown:DhCore\\DomainGenerator\\MultiLevelDomainGenerator
+NoRouteMatch	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/routers/NoRouteMatch.php	/^class NoRouteMatch extends RouteMatch$/;"	c
+Node	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/prod/api.config.php	/^use DhJasmin\\Bootstrap\\Enum\\Node;$/;"	a	typeref:unknown:DhJasmin\\Bootstrap\\Enum\\Node
+Node	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/ApiCall.php	/^use DhJasmin\\Bootstrap\\Enum\\Node;$/;"	a	typeref:unknown:DhJasmin\\Bootstrap\\Enum\\Node
+OPTIONS	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const OPTIONS = 'OPTIONS';$/;"	d	class:Request
+PARAM_PATTERN	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const PARAM_PATTERN =$/;"	d	class:ControllerAbstract
+PHP	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/docker/php-fpm/php.ini	/^[PHP]$/;"	s
+PHPUnit_Framework_TestCase	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/AccountingControllerTest.php	/^use PHPUnit_Framework_TestCase;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:PHPUnit_Framework_TestCase
+PHPUnit_Framework_TestCase	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/IndexControllerTest.php	/^use PHPUnit_Framework_TestCase;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:PHPUnit_Framework_TestCase
+PHPUnit_Framework_TestCase	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/WL3ControllerTest.php	/^use PHPUnit_Framework_TestCase;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:PHPUnit_Framework_TestCase
+POST	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const POST = 'POST';$/;"	d	class:Request
+PRETENCE_AUCTION_LICIT	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_AUCTION_LICIT        = 402;$/;"	d	class:CommonPretenceHelper
+PRETENCE_AUCTION_LICIT_DELETE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_AUCTION_LICIT_DELETE   = 703;$/;"	d	class:CommonPretenceHelper
+PRETENCE_AUCTION_PRIZE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_AUCTION_PRIZE        = 205;$/;"	d	class:CommonPretenceHelper
+PRETENCE_AWARD_BONUS	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_AWARD_BONUS          = 202;$/;"	d	class:CommonPretenceHelper
+PRETENCE_BONUS	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_BONUS                = 200;$/;"	d	class:CommonPretenceHelper
+PRETENCE_COMPENSATION	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_COMPENSATION         = 802;$/;"	d	class:CommonPretenceHelper
+PRETENCE_CREDIT_PURCHASE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_CREDIT_PURCHASE      = 1;$/;"	d	class:CommonPretenceHelper
+PRETENCE_CREDIT_REFUND	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_CREDIT_REFUND        = 810;$/;"	d	class:CommonPretenceHelper
+PRETENCE_CREDIT_TRANSFER	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_CREDIT_TRANSFER      = 807;$/;"	d	class:CommonPretenceHelper
+PRETENCE_CUSTOM_COMPENSATION	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_CUSTOM_COMPENSATION  = 800;$/;"	d	class:CommonPretenceHelper
+PRETENCE_ELMARADT_KIFIZETESEK	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_ELMARADT_KIFIZETESEK         = 902;$/;"	d	class:CommonPretenceHelper
+PRETENCE_FANCLUB_CHARGE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_FANCLUB_CHARGE       = 4;$/;"	d	class:CommonPretenceHelper
+PRETENCE_FANCLUB_COMMISSION	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_FANCLUB_COMMISSION        = 301;$/;"	d	class:CommonPretenceHelper
+PRETENCE_FANCLUB_VOD	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_FANCLUB_VOD          = 115;$/;"	d	class:CommonPretenceHelper
+PRETENCE_GIFTMEMBERSHIP_DELETE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_GIFTMEMBERSHIP_DELETE  = 702;$/;"	d	class:CommonPretenceHelper
+PRETENCE_GIFT_MEMBERSHIP	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_GIFT_MEMBERSHIP      = 401;$/;"	d	class:CommonPretenceHelper
+PRETENCE_GIFT_MEMBERSHIP_DELETE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_GIFT_MEMBERSHIP_DELETE = 702;$/;"	d	class:CommonPretenceHelper
+PRETENCE_GROUP_CHAT	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_GROUP_CHAT           = 108;$/;"	d	class:CommonPretenceHelper
+PRETENCE_GROUP_CHAT_ACTION	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_GROUP_CHAT_ACTION    = 109;$/;"	d	class:CommonPretenceHelper
+PRETENCE_GROUP_SHOW	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_GROUP_SHOW           = 121;$/;"	d	class:CommonPretenceHelper
+PRETENCE_HACKED_ACCOUNT	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_HACKED_ACCOUNT       = 812;$/;"	d	class:CommonPretenceHelper
+PRETENCE_JOYOURSELF_EARNINGS	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_JOYOURSELF_EARNINGS          = 901;$/;"	d	class:CommonPretenceHelper
+PRETENCE_LIVESEX_BONUS	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_LIVESEX_BONUS        = 201;$/;"	d	class:CommonPretenceHelper
+PRETENCE_MISSING_CREDITS	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_MISSING_CREDITS      = 808;$/;"	d	class:CommonPretenceHelper
+PRETENCE_MODEL_CHANNEL	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_MODEL_CHANNEL        = 120;$/;"	d	class:CommonPretenceHelper
+PRETENCE_NON_NUDITY_GIRLS	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_NON_NUDITY_GIRLS     = 105;$/;"	d	class:CommonPretenceHelper
+PRETENCE_OFFLINE_SURPRISE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_OFFLINE_SURPRISE     = 111;$/;"	d	class:CommonPretenceHelper
+PRETENCE_OLD_BONUS_CHARGEBACK	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_OLD_BONUS_CHARGEBACK         = 913;$/;"	d	class:CommonPretenceHelper
+PRETENCE_OLD_CHARGEBACK	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_OLD_CHARGEBACK               = 903;$/;"	d	class:CommonPretenceHelper
+PRETENCE_OLD_COMPENSATION_CHARGEBACK	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_OLD_COMPENSATION_CHARGEBACK  = 912;$/;"	d	class:CommonPretenceHelper
+PRETENCE_OLD_LIVESEX_BONUS_CHARGEBACK	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_OLD_LIVESEX_BONUS_CHARGEBACK = 907;$/;"	d	class:CommonPretenceHelper
+PRETENCE_OLD_MEMBER_COMPLAINT	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_OLD_MEMBER_COMPLAINT         = 904;$/;"	d	class:CommonPretenceHelper
+PRETENCE_OLD_OTHER_CHARGEBACK	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_OLD_OTHER_CHARGEBACK         = 910;$/;"	d	class:CommonPretenceHelper
+PRETENCE_OLD_PARTIAL_CHARGEBACK	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_OLD_PARTIAL_CHARGEBACK       = 906;$/;"	d	class:CommonPretenceHelper
+PRETENCE_OLD_REFERRAL_CHARGEBACK	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_OLD_REFERRAL_CHARGEBACK      = 914;$/;"	d	class:CommonPretenceHelper
+PRETENCE_OLD_STORNO	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_OLD_STORNO                   = 909;$/;"	d	class:CommonPretenceHelper
+PRETENCE_OLD_SURPRISE_CHARGEBACK	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_OLD_SURPRISE_CHARGEBACK      = 911;$/;"	d	class:CommonPretenceHelper
+PRETENCE_OLD_TEST	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_OLD_TEST                     = 908;$/;"	d	class:CommonPretenceHelper
+PRETENCE_OLD_VIOLATION	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_OLD_VIOLATION                = 905;$/;"	d	class:CommonPretenceHelper
+PRETENCE_OTHER	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_OTHER                        = 999;$/;"	d	class:CommonPretenceHelper
+PRETENCE_PAYED_SHOW	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_PAYED_SHOW           = 106;$/;"	d	class:CommonPretenceHelper
+PRETENCE_PAYING_MESSAGE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_PAYING_MESSAGE       = 113;$/;"	d	class:CommonPretenceHelper
+PRETENCE_PAYING_MESSAGE_COMMISSION	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_PAYING_MESSAGE_COMMISSION = 304;$/;"	d	class:CommonPretenceHelper
+PRETENCE_PENALTY	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_PENALTY              = 801;$/;"	d	class:CommonPretenceHelper
+PRETENCE_PRIVATE_SHOW	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_PRIVATE_SHOW         = 101;$/;"	d	class:CommonPretenceHelper
+PRETENCE_PROTECTION	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_PROTECTION           = 811;$/;"	d	class:CommonPretenceHelper
+PRETENCE_PSYCHIC_BONUS	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_PSYCHIC_BONUS        = 207;$/;"	d	class:CommonPretenceHelper
+PRETENCE_PSYCHIC_PAYING_MESSAGE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_PSYCHIC_PAYING_MESSAGE    = 305;$/;"	d	class:CommonPretenceHelper
+PRETENCE_PSYCHIC_PRIVATE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_PSYCHIC_PRIVATE      = 116;$/;"	d	class:CommonPretenceHelper
+PRETENCE_RECORDED_SHOW	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_RECORDED_SHOW        = 114;$/;"	d	class:CommonPretenceHelper
+PRETENCE_REFERRAL_BONUS	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_REFERRAL_BONUS       = 206;$/;"	d	class:CommonPretenceHelper
+PRETENCE_REGISTRATION_BONUS	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_REGISTRATION_BONUS   = 213;$/;"	d	class:CommonPretenceHelper
+PRETENCE_SNAPSHOT	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_SNAPSHOT             = 112;$/;"	d	class:CommonPretenceHelper
+PRETENCE_SNAPSHOT_DELETE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_SNAPSHOT_DELETE        = 701;$/;"	d	class:CommonPretenceHelper
+PRETENCE_SNEAK_PEEK	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_SNEAK_PEEK           = 110;$/;"	d	class:CommonPretenceHelper
+PRETENCE_STUDIO_PAYOUT	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_STUDIO_PAYOUT        = 2;$/;"	d	class:CommonPretenceHelper
+PRETENCE_SURPRISE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_SURPRISE             = 102;$/;"	d	class:CommonPretenceHelper
+PRETENCE_TEST	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_TEST                 = 806;$/;"	d	class:CommonPretenceHelper
+PRETENCE_TIP	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_TIP                  = 118;$/;"	d	class:CommonPretenceHelper
+PRETENCE_TOPMEMBER_AWARDS	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_TOPMEMBER_AWARDS     = 203;$/;"	d	class:CommonPretenceHelper
+PRETENCE_TOPMEMBER_CHARGE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_TOPMEMBER_CHARGE     = 3;$/;"	d	class:CommonPretenceHelper
+PRETENCE_TOPMEMBER_COMMISSION	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_TOPMEMBER_COMMISSION      = 303;$/;"	d	class:CommonPretenceHelper
+PRETENCE_TOPMEMBER_FUNDS	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_TOPMEMBER_FUNDS      = 809;$/;"	d	class:CommonPretenceHelper
+PRETENCE_TPP_BONUS_CREDIT	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_TPP_BONUS_CREDIT     = 210;$/;"	d	class:CommonPretenceHelper
+PRETENCE_TRANSLATION	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_TRANSLATION          = 804;$/;"	d	class:CommonPretenceHelper
+PRETENCE_TWO_WAY_AUDIO	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_TWO_WAY_AUDIO        = 107;$/;"	d	class:CommonPretenceHelper
+PRETENCE_UNDO_CHARGEBACK	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_UNDO_CHARGEBACK      = 803;$/;"	d	class:CommonPretenceHelper
+PRETENCE_VIDEO	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_VIDEO                = 103;$/;"	d	class:CommonPretenceHelper
+PRETENCE_VIDEO_OLD	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_VIDEO_OLD            = 104;$/;"	d	class:CommonPretenceHelper
+PRETENCE_VIOLATION	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_VIOLATION            = 805;$/;"	d	class:CommonPretenceHelper
+PRETENCE_VIPMEMBER_AWARDS	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_VIPMEMBER_AWARDS     = 204;$/;"	d	class:CommonPretenceHelper
+PRETENCE_VOD	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	const PRETENCE_VOD                  = 114;$/;"	d	class:CommonPretenceHelper
+PageNotFoundException	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^class PageNotFoundException extends Exception$/;"	c
+REMOVE_HANDLER	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	const REMOVE_HANDLER = 'remove_handler';$/;"	d	class:Events
+RESPONSE_FORMAT_JSON	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/ApiAbstract.php	/^	const RESPONSE_FORMAT_JSON = 'json';$/;"	d	class:ApiAbstract
+RESPONSE_SUCCESSFUL	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^	const RESPONSE_SUCCESSFUL = true;$/;"	d	class:DhJasmin\\SystemApi\\Controller\\CommonApiController
+RESPONSE_UNSUCCESSFUL	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^	const RESPONSE_UNSUCCESSFUL = false;$/;"	d	class:DhJasmin\\SystemApi\\Controller\\CommonApiController
+ROUND_MODE_CEIL	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const ROUND_MODE_CEIL  = 1;$/;"	d	class:Accounting
+ROUND_MODE_DEFAULT	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const ROUND_MODE_DEFAULT = 3;$/;"	d	class:Accounting
+ROUND_MODE_FLOOR	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const ROUND_MODE_FLOOR = 2;$/;"	d	class:Accounting
+ROUND_MODE_NONE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const ROUND_MODE_NONE  = 0;$/;"	d	class:Accounting
+ROUND_MODE_ROUND	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const ROUND_MODE_ROUND = 3;$/;"	d	class:Accounting
+RedirectException	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^class RedirectException extends Exception$/;"	c
+RedirectException	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^use RedirectException;$/;"	a	namespace:DhJasmin\\SystemApi\\Controller	typeref:unknown:RedirectException
+Request	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^class Request$/;"	c
+Request	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Functional/Controller/AccountingControllerTest.php	/^use Request;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Functional\\Controller	typeref:unknown:Request
+Request	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/AccountingControllerTest.php	/^use Request;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:Request
+Request	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/IndexControllerTest.php	/^use Request;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:Request
+Request	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/WL3ControllerTest.php	/^use Request;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:Request
+RequestHelper	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/view-helper/RequestHelper.php	/^class RequestHelper$/;"	c
+Response	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^class Response$/;"	c
+Response	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^use Response;$/;"	a	namespace:DhJasmin\\SystemApi\\Controller	typeref:unknown:Response
+Response	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/AccountingControllerTest.php	/^use Response;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:Response
+Response	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/IndexControllerTest.php	/^use Response;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:Response
+Response	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/WL3ControllerTest.php	/^use Response;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:Response
+ResponseFormatHandlerApi	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^abstract class ResponseFormatHandlerApi implements IResponseFormatHandler$/;"	c
+ResponseFormatHandlerApi	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^use ResponseFormatHandlerApi;$/;"	a	namespace:DhJasmin\\SystemApi\\Controller	typeref:unknown:ResponseFormatHandlerApi
+ResponseFormatHandlerApi	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiErrorController.php	/^use ResponseFormatHandlerApi;$/;"	a	namespace:DhJasmin\\SystemApi\\Controller	typeref:unknown:ResponseFormatHandlerApi
+ResponseFormatHandlerApiJson	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApiJson.php	/^class ResponseFormatHandlerApiJson extends ResponseFormatHandlerApi$/;"	c
+ResponseFormatHandlerApiJson	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^use ResponseFormatHandlerApiJson;$/;"	a	namespace:DhJasmin\\SystemApi\\Controller	typeref:unknown:ResponseFormatHandlerApiJson
+ResponseFormatHandlerJson	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^class ResponseFormatHandlerJson implements IResponseFormatHandler$/;"	c
+RollingCurl	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^class RollingCurl$/;"	c
+RollingCurlRequest	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurlRequest.php	/^class RollingCurlRequest$/;"	c
+RouteMatch	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/routers/RouteMatch.php	/^class RouteMatch$/;"	c
+Router	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^class Router$/;"	c
+Router	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Functional/Controller/AccountingControllerTest.php	/^use Router;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Functional\\Controller	typeref:unknown:Router
+Router	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/AccountingControllerTest.php	/^use Router;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:Router
+Router	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/IndexControllerTest.php	/^use Router;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:Router
+Router	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/WL3ControllerTest.php	/^use Router;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:Router
+SECTION_FREE_CHAT	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const SECTION_FREE_CHAT   = 'free';$/;"	d	class:Accounting
+SECTION_MEMBER_CHAT	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const SECTION_MEMBER_CHAT = 'member';$/;"	d	class:Accounting
+SERVER_TYPE_API	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/DevHelper.php	/^	const SERVER_TYPE_API = 2;$/;"	d	class:DevHelper
+SERVER_TYPE_FRONTEND	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/DevHelper.php	/^	const SERVER_TYPE_FRONTEND = 1;$/;"	d	class:DevHelper
+SESSION_ID_PARAMETER_NAME	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/view-helper/RequestHelper.php	/^	const SESSION_ID_PARAMETER_NAME = 'session';$/;"	d	class:RequestHelper
+STATUS_ERROR	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	const STATUS_ERROR = 'ERROR';$/;"	d	class:ResponseFormatHandlerApi
+STATUS_OK	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	const STATUS_OK = 'OK';$/;"	d	class:ResponseFormatHandlerApi
+STRIPE_ID	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	const STRIPE_ID = 'stripe_id';$/;"	d	class:Accounting
+ServerNameFactory	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/bootstrap.php	/^use DhJasmin\\Bootstrap\\Server\\ServerNameFactory;$/;"	a	typeref:unknown:DhJasmin\\Bootstrap\\Server\\ServerNameFactory
+ServerNameParser	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/bootstrap.php	/^use DhJasmin\\Bootstrap\\Server\\ServerNameParser;$/;"	a	typeref:unknown:DhJasmin\\Bootstrap\\Server\\ServerNameParser
+SingleLevelDomainGenerator	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/dev/api.config.php	/^use DhCore\\DomainGenerator\\SingleLevelDomainGenerator;$/;"	a	typeref:unknown:DhCore\\DomainGenerator\\SingleLevelDomainGenerator
+SingleLevelDomainGenerator	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/DomainGenerator.php	/^use DhCore\\DomainGenerator\\SingleLevelDomainGenerator;$/;"	a	typeref:unknown:DhCore\\DomainGenerator\\SingleLevelDomainGenerator
+Site	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/dev/api.config.php	/^use DhJasmin\\Bootstrap\\Enum\\Site;$/;"	a	typeref:unknown:DhJasmin\\Bootstrap\\Enum\\Site
+Site	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/docker/api.config.php	/^use DhJasmin\\Bootstrap\\Enum\\Site;$/;"	a	typeref:unknown:DhJasmin\\Bootstrap\\Enum\\Site
+Site	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/prod/api.config.php	/^use DhJasmin\\Bootstrap\\Enum\\Site;$/;"	a	typeref:unknown:DhJasmin\\Bootstrap\\Enum\\Site
+Site	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/test/api.config.php	/^use DhJasmin\\Bootstrap\\Enum\\Site;$/;"	a	typeref:unknown:DhJasmin\\Bootstrap\\Enum\\Site
+SyslogApiQueue	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/SyslogApiQueue.php	/^class SyslogApiQueue$/;"	c
+SyslogApiQueue	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/IndexController.php	/^use SyslogApiQueue;$/;"	a	namespace:DhJasmin\\SystemApi\\Controller	typeref:unknown:SyslogApiQueue
+TRANSLATION_RULE_DATE	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	const TRANSLATION_RULE_DATE = 'rule_date';$/;"	d	class:ResponseFormatHandlerApi
+TRANSLATION_RULE_TIMESTAMP	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	const TRANSLATION_RULE_TIMESTAMP = 'rule_timestamp';$/;"	d	class:ResponseFormatHandlerApi
+WL3Controller	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/WL3Controller.php	/^class WL3Controller extends CommonApiController$/;"	c	namespace:DhJasmin\\SystemApi\\Controller
+WL3Controller	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/WL3ControllerTest.php	/^use DhJasmin\\SystemApi\\Controller\\WL3Controller;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller	typeref:unknown:DhJasmin\\SystemApi\\Controller\\WL3Controller
+WL3ControllerTest	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/WL3ControllerTest.php	/^class WL3ControllerTest extends PHPUnit_Framework_TestCase$/;"	c	namespace:DhJasmin\\SystemApi\\Test\\Unit\\Controller
+__clone	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/DomainGenerator.php	/^	private function __clone()$/;"	f	class:DomainGenerator
+__clone	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/ApiAbstract.php	/^	protected function __clone()$/;"	f	class:ApiAbstract
+__clone	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	private function __clone()$/;"	f	class:Application
+__construct	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/DomainGenerator.php	/^	protected function __construct()$/;"	f	class:DomainGenerator
+__construct	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/ApiAbstract.php	/^	protected function __construct($responseFormat = self::RESPONSE_FORMAT_JSON, $timeOut = 100)$/;"	f	class:ApiAbstract
+__construct	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^	public function __construct($callback = null, $maxSimultaneousConnections = 5)$/;"	f	class:RollingCurl
+__construct	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurlRequest.php	/^	public function __construct($/;"	f	class:RollingCurlRequest
+__construct	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/LoggerSyslog.php	/^	public function __construct($logName, $tag = null)$/;"	f	class:LoggerSyslog
+__construct	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected function __construct()$/;"	f	class:Application
+__construct	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function  __construct($logPath)$/;"	f	class:ErrorHandlerFile
+__construct	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function  __construct($syslogTag = 'PHP', $syslogFacility = LOG_LOCAL7)$/;"	f	class:ErrorHandlerSyslog
+__construct	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function __construct($/;"	f	class:Curl
+__construct	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function __construct($httpStatusCode = 301)$/;"	f	class:RedirectException
+__construct	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function __construct()$/;"	f	class:ErrorHandlerPool
+__construct	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function __construct()$/;"	f	class:Request
+__construct	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function __construct()$/;"	f	class:Response
+__construct	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function __construct(Request $request, Response $response, Router $router)$/;"	f	class:ControllerAbstract
+__construct	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/routers/NoRouteMatch.php	/^	public function __construct()$/;"	f	class:NoRouteMatch
+__construct	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/routers/RouteMatch.php	/^	public function __construct($handler, array $params = array())$/;"	f	class:RouteMatch
+__destruct	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^	public function __destruct()$/;"	f	class:RollingCurl
+__destruct	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurlRequest.php	/^	public function __destruct()$/;"	f	class:RollingCurlRequest
+__destruct	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function __destruct()$/;"	f	class:Curl
+__destruct	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function __destruct()$/;"	f	class:ErrorHandlerPool
+_generate	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	abstract protected function _generate();$/;"	f	class:ResponseFormatHandlerApi
+_generate	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApiJson.php	/^	protected function _generate()$/;"	f	class:ResponseFormatHandlerApiJson
+accountList	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	protected $accountList = array();$/;"	v	class:AccountingTransaction
+accountingController	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/AccountingControllerTest.php	/^	private $accountingController;$/;"	v	class:DhJasmin\\SystemApi\\Test\\Unit\\Controller\\AccountingControllerTest
+actionName	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $actionName;$/;"	v	class:Application
+addErrorHandler	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function addErrorHandler(ErrorHandlerAbstract $errorHandler)$/;"	f	class:Application
+addErrorHandler	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function addErrorHandler(ErrorHandlerAbstract $errorHandler)$/;"	f	class:ErrorHandlerPool
+addEvent	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/Log.php	/^	public static function addEvent($module, $action, $isSuccess, array $params)$/;"	f	class:Log
+addEvent	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/LoggerAbstract.php	/^	public function addEvent($module, $action, $isSuccess, array $params)$/;"	f	class:LoggerAbstract
+addEventListener	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public static function addEventListener($name, $listener)$/;"	f	class:Events
+addEventListeners	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public static function addEventListeners(array $events)$/;"	f	class:Events
+addFormat	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public static function addFormat($format, $contentType, $isTextFormat)$/;"	f	class:Response
+addLicit	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function addLicit($auctionId, $accountId, $licit, $domain, $prize)$/;"	f	class:Accounting
+addLogger	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/Log.php	/^	public static function addLogger(LoggerAbstract $logger)$/;"	f	class:Log
+addMessageToSystem	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/SyslogApiQueue.php	/^	public static function addMessageToSystem($system, $message)$/;"	f	class:SyslogApiQueue
+addRoutes	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function addRoutes(array $routes)$/;"	f	class:Router
+addRows	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/Log.php	/^	public static function addRows($value)$/;"	f	class:Log
+addRows	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/LoggerAbstract.php	/^	public function addRows($value)$/;"	f	class:LoggerAbstract
+agentSignatures	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	private $agentSignatures = array('bot', 'crawl', 'check_http', 'spider', 'search', 'ia_archiver/;"	v	class:Request
+allPretence	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	private static $allPretence = array($/;"	v	class:CommonPretenceHelper
+appConfigFile	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/bootstrap.php	/^$appConfigFile = realpath(__DIR__ . '\/application_config.php');$/;"	v
+appConfigFile	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/test/config.php	/^$appConfigFile = realpath(__DIR__ . '\/application_config.php');$/;"	v
+appendToContent	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function appendToContent($content)$/;"	f	class:Response
+application	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/web/index.php	/^$application = Application::getInstance();$/;"	v
+availableSyslogApiQueues	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/SyslogApiQueue.php	/^	protected static $availableSyslogApiQueues = array($/;"	v	class:SyslogApiQueue
+background_colors	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	private static $background_colors = array($/;"	v	class:Console
+bandedAccountId	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	protected $bandedAccountId;$/;"	v	class:AccountingTransaction
+cacheTtl	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $cacheTtl;$/;"	v	class:Response
+call	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/ApiAbstract.php	/^	protected function call($/;"	f	class:ApiAbstract
+call	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/ApiCall.php	/^	public static function call($/;"	f	class:ApiCall
+callback	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^	private $callback;$/;"	v	class:RollingCurl
+changeTimeZone	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonDateHelper.php	/^	public static function changeTimeZone($time, $outputTimeZone = 'UTC', $inputTimeZone = null,$/;"	f	class:CommonDateHelper
+charset	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $charset = 'utf-8';$/;"	v	class:Response
+checkIsInternalIp	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function checkIsInternalIp($ip = null, $isWanIncluded = true)$/;"	f	class:Request
+checkIsTransactionExistsBetweenAccounts	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function checkIsTransactionExistsBetweenAccounts($performerAccountId, $memberAccountId, /;"	f	class:Accounting
+clean	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/LoggerAbstract.php	/^	abstract protected function clean();$/;"	f	class:LoggerAbstract
+clean	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/LoggerSyslog.php	/^	protected function clean()$/;"	f	class:LoggerSyslog
+cleanUri	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected function cleanUri($uri)$/;"	f	class:Router
+clear	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function clear()$/;"	f	class:Response
+clearHeaders	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function clearHeaders()$/;"	f	class:Response
+clearInstance	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public static function clearInstance()$/;"	f	class:Application
+clearRows	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/Log.php	/^	public static function clearRows()$/;"	f	class:Log
+clearRows	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/LoggerAbstract.php	/^	public function clearRows()$/;"	f	class:LoggerAbstract
+clearUri	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function clearUri()$/;"	f	class:Request
+closeAuction	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function closeAuction($auctionId, $domain, $prize)$/;"	f	class:Accounting
+codec	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/ApiAbstract.php	/^	protected $codec;$/;"	v	class:ApiAbstract
+colorize	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	public static function colorize($str, $fgColor = null, $bgColor = null)$/;"	f	class:Console
+colorizeJson	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	public static function colorizeJson($json)$/;"	f	class:Console
+comment	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	protected $comment;$/;"	v	class:AccountingTransaction
+confirmTransactionSlice	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function confirmTransactionSlice($transactionId, $transactionSliceId)$/;"	f	class:Accounting
+content	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $content = '';$/;"	v	class:Response
+content	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	protected $content = array($/;"	v	class:ResponseFormatHandlerApi
+content	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^	private $content;$/;"	v	class:DhJasmin\\SystemApi\\Controller\\CommonApiController
+contentTypes	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public static $contentTypes = array($/;"	v	class:Response
+continuePurchaseAndSpendingTransactionsWithSlice	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function continuePurchaseAndSpendingTransactionsWithSlice($/;"	f	class:Accounting
+continueTransaction	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function continueTransaction($/;"	f	class:Accounting
+continueTransactionSimple	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function continueTransactionSimple($/;"	f	class:Accounting
+controllerClassName	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $controllerClassName;$/;"	v	class:Application
+convertTimeZone	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonDateHelper.php	/^	public static function convertTimeZone($format = 'Y-m-d H:i:s', $time = 'now', $inputTimeZone =/;"	f	class:CommonDateHelper
+cookieData	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	private $cookieData = array();$/;"	v	class:Curl
+createAccount	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function createAccount($parentAccountId = null, $minimumBalance = null, $accountType = n/;"	f	class:Accounting
+createFolderIfNotExists	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	private function createFolderIfNotExists($directory)$/;"	f	class:ErrorHandlerFile
+createPurchaseAndSpendingTransactionsWithSlice	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function createPurchaseAndSpendingTransactionsWithSlice($/;"	f	class:Accounting
+createdAt	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	protected $createdAt;$/;"	v	class:AccountingTransaction
+creditType	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	protected $creditType = 1;$/;"	v	class:AccountingTransaction
+currentNode	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/test/api.config.php	/^$currentNode = Config::get('system.node.current');$/;"	v
+debugConsole	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $debugConsole;$/;"	v	class:Application
+debugConsole	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $debugConsole;$/;"	v	class:Curl
+debugConsole	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $debugConsole;$/;"	v	class:ErrorHandlerPool
+decimals	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	protected $decimals = 2;$/;"	v	class:AccountingTransaction
+decode	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/CodecAdapterInterface.php	/^	public function decode($text);$/;"	f	interface:CodecAdapterInterface
+decode	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/CodecAdapterJson.php	/^	public function decode($text)$/;"	f	class:CodecAdapterJson
+decolorize	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	public static function decolorize($text)$/;"	f	class:Console
+deleteCookie	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function deleteCookie($name, $path = null, $domain = null, $isSecure = false, $isHttpOnl/;"	f	class:Response
+destinations	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/SyslogApiQueue.php	/^	protected static $destinations = array('jasmin1', 'jasmin2');$/;"	v	class:SyslogApiQueue
+destinations	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/IndexController.php	/^	protected static $destinations = array('jasmin1', 'jasmin2', 'bestfreesexcammodelsforme', 'mwh'/;"	v	class:DhJasmin\\SystemApi\\Controller\\IndexController
+disableSetCookie	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function disableSetCookie()$/;"	f	class:Response
+dispatch	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected function dispatch($controllerClassName, $action)$/;"	f	class:Application
+dispatch	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function dispatch($action)$/;"	f	class:ControllerAbstract
+dispatch	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^	public function dispatch($action)$/;"	f	class:DhJasmin\\SystemApi\\Controller\\CommonApiController
+display_errors	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/docker/php-fpm/php.ini	/^display_errors = On$/;"	k	section:PHP
+do404	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiErrorController.php	/^	public function do404()$/;"	f	class:DhJasmin\\SystemApi\\Controller\\CommonApiErrorController
+do500	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiErrorController.php	/^	public function do500()$/;"	f	class:DhJasmin\\SystemApi\\Controller\\CommonApiErrorController
+do503	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiErrorController.php	/^	public function do503()$/;"	f	class:DhJasmin\\SystemApi\\Controller\\CommonApiErrorController
+doCheckIsTransactionExistsBetweenAccounts	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	public function doCheckIsTransactionExistsBetweenAccounts($performerAccountId, $memberAccountId/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+doConfirmTransactionSlice	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	public function doConfirmTransactionSlice($transactionId, $transactionSliceId)$/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+doContinuePurchaseAndSpendingTransactionsWithSlice	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	public function doContinuePurchaseAndSpendingTransactionsWithSlice($/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+doContinueTransaction	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	public function doContinueTransaction($/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+doContinueTransactionSimple	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	public function doContinueTransactionSimple($/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+doCreateAccount	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	public function doCreateAccount($/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+doCreateMember	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	public function doCreateMember($nick)$/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+doCreatePurchaseAndSpendingTransactionsWithSlice	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	public function doCreatePurchaseAndSpendingTransactionsWithSlice($/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+doGetAccountBoughtCreditSize	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function doGetAccountBoughtCreditSize($accountId, $fromDate, $toDate, $amount)$/;"	f	class:Accounting
+doGetAccountBoughtCreditSize	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	public function doGetAccountBoughtCreditSize($accountId, $fromTime, $toTime, $amount)$/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+doGetBalance	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	public function doGetBalance($accountingId, $creditType = self::CREDIT_TYPE_CREDIT)$/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+doGetFirstTransactionDate	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	public function doGetFirstTransactionDate(array $accountIds, array $pretences)$/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+doGetInfo	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	public function doGetInfo($accountId) {$/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+doGetPendingTransactionSlices	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	public function doGetPendingTransactionSlices($limit = 100, $threshold = 120)$/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+doGetSlices	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	public function doGetSlices($transactionId, $parentAccountId, $limit, $offset)$/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+doGetTopEarningsByPeriods	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	public function doGetTopEarningsByPeriods($periodStart, $previousPeriodStart)$/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+doGetTransactionByUniqueId	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	public function doGetTransactionByUniqueId($transactionId)$/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+doGetTransactions	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	public function doGetTransactions($/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+doIndex	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/IndexController.php	/^	public function doIndex($destination, $system, $action, $sync = null)$/;"	f	class:DhJasmin\\SystemApi\\Controller\\IndexController
+doIndex	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/WL3Controller.php	/^	public function doIndex()$/;"	f	class:DhJasmin\\SystemApi\\Controller\\WL3Controller
+doQueueSync	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/IndexController.php	/^	public function doQueueSync()$/;"	f	class:DhJasmin\\SystemApi\\Controller\\IndexController
+doRevokeContinuousTransaction	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	public function doRevokeContinuousTransaction($/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+doSetTransactionSliceStart	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	public function doSetTransactionSliceStart($transactionId, $totalUnitCount)$/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+doTransaction	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	public function doTransaction($/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+doTransactionRevoke	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	public function doTransactionRevoke($/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+doTransactionSimple	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	public function doTransactionSimple($/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+domain	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	protected $domain;$/;"	v	class:AccountingTransaction
+domainGenerator	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/system_api.config.php	/^$domainGenerator = DomainGenerator::getInstance();$/;"	v
+domainGenerator	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/dev/api.config.php	/^$domainGenerator = DomainGenerator::getInstance()->getDevDomainDomainGenerator();$/;"	v
+domainGenerator	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/test/api.config.php	/^$domainGenerator = DomainGenerator::getInstance();$/;"	v
+encode	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/CodecAdapterInterface.php	/^	public function encode($text);$/;"	f	interface:CodecAdapterInterface
+encode	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/CodecAdapterJson.php	/^	public function encode($text)$/;"	f	class:CodecAdapterJson
+error	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	public static function error($msg = 'hiba')$/;"	f	class:Console
+errorColors	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public static $errorColors = array($/;"	v	class:ErrorHandlerConsole
+errorController	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $errorController = 'Error';$/;"	v	class:Application
+errorHandlerPool	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $errorHandlerPool;$/;"	v	class:Application
+errorHandlers	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $errorHandlers = array();$/;"	v	class:ErrorHandlerPool
+errorNames	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public static $errorNames = array($/;"	v	class:ErrorHandlerAbstract
+error_reporting	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/docker/php-fpm/php.ini	/^error_reporting = E_ALL$/;"	k	section:PHP
+exec	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function exec()$/;"	f	class:Curl
+execute	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/ApiAbstract.php	/^	protected function execute($url, $method, $parameters, $cookies, $files)$/;"	f	class:ApiAbstract
+execute	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^	public function execute()$/;"	f	class:RollingCurl
+executeTransaction	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function executeTransaction(AccountingTransaction $transaction)$/;"	f	class:Accounting
+facility	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/LoggerSyslog.php	/^	private $facility;$/;"	v	class:LoggerSyslog
+fileData	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	private $fileData = array();$/;"	v	class:Curl
+filename	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $filename = '';$/;"	v	class:Response
+filterInvalidValues	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected function filterInvalidValues(array &$input, $encoding = 'UTF-8')$/;"	f	class:Request
+forceTransaction	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	protected $forceTransaction = false;$/;"	v	class:AccountingTransaction
+foreground_colors	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	private static $foreground_colors = array($/;"	v	class:Console
+format	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $format = self::FORMAT_HTML;$/;"	v	class:Response
+formatHandler	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^	private $formatHandler;$/;"	v	class:DhJasmin\\SystemApi\\Controller\\CommonApiController
+formatHandlers	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected static $formatHandlers = array();$/;"	v	class:Response
+forwardTo404	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected function forwardTo404()$/;"	f	class:ControllerAbstract
+forwardTo404If	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected function forwardTo404If($condition)$/;"	f	class:ControllerAbstract
+generateAbsoluteUrl	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function generateAbsoluteUrl($routeHandler, $subDomain = '', array $routeParams = array(/;"	f	class:Router
+generateOutput	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function generateOutput($data)$/;"	f	class:Response
+generateOutput	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function generateOutput($data)$/;"	f	class:ResponseFormatHandlerJson
+generateOutput	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function generateOutput($data);$/;"	f	interface:IResponseFormatHandler
+generateOutput	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	public function generateOutput($data)$/;"	f	class:ResponseFormatHandlerApi
+generateRegExpFromUriPattern	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected function generateRegExpFromUriPattern($uri)$/;"	f	class:Router
+generateUrl	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected function generateUrl($routeHandler,$/;"	f	class:ControllerAbstract
+generateUrl	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function generateUrl($/;"	f	class:Router
+generateUrlEncodedStringFromPostData	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $generateUrlEncodedStringFromPostData;$/;"	v	class:Curl
+get	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^	public function get($url, $get_data = null, $headers = null, $options = null, $uid = null, $raw/;"	f	class:RollingCurl
+get	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function get($name, $sources = 'UGPC')$/;"	f	class:Request
+getAcceptLanguage	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getAcceptLanguage()$/;"	f	class:Request
+getAccountConsecutiveMinEarningPeriodsMaxLength	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getAccountConsecutiveMinEarningPeriodsMaxLength($/;"	f	class:Accounting
+getAccountInfo	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getAccountInfo($accountId)$/;"	f	class:Accounting
+getAccountList	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function getAccountList()$/;"	f	class:AccountingTransaction
+getAll	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getAll()$/;"	f	class:Request
+getAllCookie	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getAllCookie()$/;"	f	class:Request
+getAllGet	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getAllGet()$/;"	f	class:Request
+getAllHeaders	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getAllHeaders()$/;"	f	class:Request
+getAllPost	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getAllPost()$/;"	f	class:Request
+getAllPretence	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	public static function getAllPretence()$/;"	f	class:CommonPretenceHelper
+getAmountForTransactionList	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getAmountForTransactionList($transactionIds)$/;"	f	class:Accounting
+getArguments	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected function getArguments($method)$/;"	f	class:ControllerAbstract
+getAuctionStatus	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getAuctionStatus($auctionId)$/;"	f	class:Accounting
+getBalance	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getBalance($accountId, $creditType = 1)$/;"	f	class:Accounting
+getBandBorderCrossingList	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getBandBorderCrossingList($accountId, $startDate, $endDate,$/;"	f	class:Accounting
+getBandedAccountId	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function getBandedAccountId()$/;"	f	class:AccountingTransaction
+getBrowserInfo	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getBrowserInfo($userAgent = '')$/;"	f	class:Request
+getCharset	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getCharset()$/;"	f	class:Response
+getComment	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function getComment()$/;"	f	class:AccountingTransaction
+getCommentParameters	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected function getCommentParameters($docComment)$/;"	f	class:ControllerAbstract
+getCommission	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getCommission($pretence, $accountId, $section = self::SECTION_MEMBER_CHAT, &$st/;"	f	class:Accounting
+getCommissionByEarningAndSection	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getCommissionByEarningAndSection($earning, $section)$/;"	f	class:Accounting
+getContent	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getContent()$/;"	f	class:Response
+getControllerClassName	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getControllerClassName()$/;"	f	class:Application
+getCookie	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getCookie($name, $default = null)$/;"	f	class:Request
+getCreatedAt	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function getCreatedAt()$/;"	f	class:AccountingTransaction
+getCreditType	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function getCreditType()$/;"	f	class:AccountingTransaction
+getData	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	private $getData = array();$/;"	v	class:Curl
+getDebugConsole	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getDebugConsole()$/;"	f	class:Application
+getDecimals	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function getDecimals()$/;"	f	class:AccountingTransaction
+getDevDomainDomainGenerator	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/DomainGenerator.php	/^	public function getDevDomainDomainGenerator()$/;"	f	class:DomainGenerator
+getDomain	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function getDomain()$/;"	f	class:AccountingTransaction
+getDomain	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getDomain()$/;"	f	class:Request
+getEarnings	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getEarnings($accountId, $includeSiblings = false, array $pretenceList = null,$/;"	f	class:Accounting
+getEarningsByPeriod	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getEarningsByPeriod($accountId, $startDateList, $endDateList)$/;"	f	class:Accounting
+getEarningsByPeriods	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getEarningsByPeriods($accountId, $startDate, $endDate, $startTime = null, $endT/;"	f	class:Accounting
+getErrorController	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getErrorController()$/;"	f	class:Application
+getErrorHandlerPool	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getErrorHandlerPool()$/;"	f	class:Application
+getEventCount	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/LoggerAbstract.php	/^	public function getEventCount()$/;"	f	class:LoggerAbstract
+getFilename	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getFilename()$/;"	f	class:Response
+getFiles	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getFiles()$/;"	f	class:Request
+getFirstClientIp	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getFirstClientIp()$/;"	f	class:Request
+getFirstTransactionDate	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getFirstTransactionDate(array $accountIds, array $pretences)$/;"	f	class:Accounting
+getForceTransaction	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function getForceTransaction()$/;"	f	class:AccountingTransaction
+getFormat	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getFormat()$/;"	f	class:Response
+getFormatHandler	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public static function getFormatHandler($format)$/;"	f	class:Response
+getFormatHandler	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^	public function getFormatHandler()$/;"	f	class:DhJasmin\\SystemApi\\Controller\\CommonApiController
+getFromTime	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getFromTime()$/;"	f	class:Accounting
+getGet	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getGet($name, $default = null)$/;"	f	class:Request
+getHandler	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/routers/RouteMatch.php	/^	public function getHandler()$/;"	f	class:RouteMatch
+getHttpStatusCode	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getHttpStatusCode()$/;"	f	class:Response
+getHttpStatusMessage	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public static function getHttpStatusMessage($code)$/;"	f	class:Response
+getInfo	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getInfo()$/;"	f	class:Curl
+getInstance	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public static function getInstance()$/;"	f	class:Accounting
+getInstance	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/DomainGenerator.php	/^	public static function getInstance()$/;"	f	class:DomainGenerator
+getInstance	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/ApiAbstract.php	/^	public static function getInstance()$/;"	f	class:ApiAbstract
+getInstance	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public static function getInstance()$/;"	f	class:Application
+getIp	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getIp()$/;"	f	class:Request
+getLinkTransactionId	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function getLinkTransactionId()$/;"	f	class:AccountingTransaction
+getList	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getList($accountId, $fromTime = null, $toTime = null, $includeSiblings = false,$/;"	f	class:Accounting
+getListByTransactionId	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getListByTransactionId($transactionId, $accountId)$/;"	f	class:Accounting
+getLiveJasminDevDomainGenerator	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/DomainGenerator.php	/^	public function getLiveJasminDevDomainGenerator()$/;"	f	class:DomainGenerator
+getMemberCookie	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function getMemberCookie()$/;"	f	class:AccountingTransaction
+getMemberIp	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function getMemberIp()$/;"	f	class:AccountingTransaction
+getMemberType	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/view-helper/RequestHelper.php	/^	public static function getMemberType($default = '', $sessionId = '')$/;"	f	class:RequestHelper
+getMethod	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getMethod()$/;"	f	class:Request
+getOptions	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^	private function getOptions($request)$/;"	f	class:RollingCurl
+getOptions	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/LoggerSyslog.php	/^	private function getOptions()$/;"	f	class:LoggerSyslog
+getOriginalUri	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getOriginalUri()$/;"	f	class:Request
+getPageId	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getPageId()$/;"	f	class:Application
+getParams	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/routers/RouteMatch.php	/^	public function getParams()$/;"	f	class:RouteMatch
+getPendingTransactionSlices	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getPendingTransactionSlices($limit = 100, $threshold = 120)$/;"	f	class:Accounting
+getPost	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getPost($name, $default = null)$/;"	f	class:Request
+getPretence	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function getPretence()$/;"	f	class:AccountingTransaction
+getPretenceDetails	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getPretenceDetails($pretence, $accountId, $section = self::SECTION_MEMBER_CHAT)$/;"	f	class:Accounting
+getPretenceNameById	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	public static function getPretenceNameById($pretenceId)$/;"	f	class:CommonPretenceHelper
+getPrototype	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/routers/NoRouteMatch.php	/^	public static function getPrototype()$/;"	f	class:NoRouteMatch
+getProxyAddress	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/ApiCall.php	/^	protected static function getProxyAddress($system)$/;"	f	class:ApiCall
+getProxyIpAddress	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getProxyIpAddress()$/;"	f	class:Request
+getPurchaseOrder	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function getPurchaseOrder()$/;"	f	class:AccountingTransaction
+getQueryString	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getQueryString()$/;"	f	class:Request
+getReferrer	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getReferrer()$/;"	f	class:Request
+getRequest	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getRequest()$/;"	f	class:Application
+getResponse	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getResponse()$/;"	f	class:Application
+getResponse	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^	protected function getResponse($success, array $data = array())$/;"	f	class:DhJasmin\\SystemApi\\Controller\\CommonApiController
+getResponses	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^	public function getResponses()$/;"	f	class:RollingCurl
+getRoundMode	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function getRoundMode()$/;"	f	class:AccountingTransaction
+getRouteHandler	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getRouteHandler(Request $request)$/;"	f	class:Router
+getRouter	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getRouter()$/;"	f	class:Application
+getRoutes	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getRoutes()$/;"	f	class:Router
+getSessionIdFromRequest	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/view-helper/RequestHelper.php	/^	public static function getSessionIdFromRequest($sessionName = null)$/;"	f	class:RequestHelper
+getSingleCurlHttpCode	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^	public function getSingleCurlHttpCode()$/;"	f	class:RollingCurl
+getSingleLevelDomainGenerator	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/DomainGenerator.php	/^	public function getSingleLevelDomainGenerator()$/;"	f	class:DomainGenerator
+getSlices	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getSlices($transactionId, $parentAccountId, $limit, $offset)$/;"	f	class:Accounting
+getSourceAccountId	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function getSourceAccountId()$/;"	f	class:AccountingTransaction
+getStatus	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	public function getStatus()$/;"	f	class:ResponseFormatHandlerApi
+getStripe	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getStripe($accountId)$/;"	f	class:Accounting
+getStripeIdByCommissionAndSection	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getStripeIdByCommissionAndSection($commission, $section, &$stripeName = null)$/;"	f	class:Accounting
+getSubdomain	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getSubdomain()$/;"	f	class:Request
+getSuccessfulResponse	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^	protected function getSuccessfulResponse(array $data = array())$/;"	f	class:DhJasmin\\SystemApi\\Controller\\CommonApiController
+getTopEarnings	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getTopEarnings($periodStart, $previousPeriodStart)$/;"	f	class:Accounting
+getTransactionData	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getTransactionData($transactionId, $accountId)$/;"	f	class:Accounting
+getTransactionIdByUniqueidentifier	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getTransactionIdByUniqueidentifier($uniqueidentifier)$/;"	f	class:Accounting
+getTransactions	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function getTransactions($/;"	f	class:Accounting
+getUnitCount	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function getUnitCount()$/;"	f	class:AccountingTransaction
+getUnitDivisor	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function getUnitDivisor()$/;"	f	class:AccountingTransaction
+getUnitPrice	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function getUnitPrice()$/;"	f	class:AccountingTransaction
+getUnsuccessfulResponse	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^	protected function getUnsuccessfulResponse(array $data = array())$/;"	f	class:DhJasmin\\SystemApi\\Controller\\CommonApiController
+getUnsuccessfulResponseByException	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^	protected function getUnsuccessfulResponseByException(Exception $exception, array $data = array/;"	f	class:DhJasmin\\SystemApi\\Controller\\CommonApiController
+getUri	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getUri()$/;"	f	class:Request
+getUrl	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getUrl()$/;"	f	class:Request
+getUserAgent	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getUserAgent()$/;"	f	class:Request
+getUserAgentWithoutBrowserVersion	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getUserAgentWithoutBrowserVersion($userAgent = null)$/;"	f	class:Request
+getUtcTime	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonDateHelper.php	/^	public static function getUtcTime($format = 'Y-m-d H:i:s', $time = 'now')$/;"	f	class:CommonDateHelper
+getValidatedCreditType	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/AccountingController.php	/^	protected function getValidatedCreditType($creditType)$/;"	f	class:DhJasmin\\SystemApi\\Controller\\AccountingController
+getVia	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getVia()$/;"	f	class:Request
+getWL3Controller	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/WL3ControllerTest.php	/^	public function getWL3Controller($request)$/;"	f	class:DhJasmin\\SystemApi\\Test\\Unit\\Controller\\WL3ControllerTest
+getXForwardedFor	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function getXForwardedFor()$/;"	f	class:Request
+handle	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	private $handle;$/;"	v	class:Curl
+handleError	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	abstract public function handleError($code, $message, $file, $line, array $context, $time, $err/;"	f	class:ErrorHandlerAbstract
+handleError	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function handleError($code, $message, $file, $line, array $context)$/;"	f	class:ErrorHandlerPool
+handleError	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function handleError($code, $message, $file, $line, array $context, $time, $errorId)$/;"	f	class:ErrorHandlerConsole
+handleError	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function handleError($code, $message, $file, $line, array $context, $time, $errorId)$/;"	f	class:ErrorHandlerFile
+handleError	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function handleError($code, $message, $file, $line, array $context, $time, $errorId)$/;"	f	class:ErrorHandlerSyslog
+handleException	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function handleException($e)$/;"	f	class:ErrorHandlerPool
+handleFatalError	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function handleFatalError()$/;"	f	class:ErrorHandlerPool
+handleRoute	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected function handleRoute(Request $request, $routeHandler, $routeUri)$/;"	f	class:Router
+handler	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/routers/RouteMatch.php	/^	protected $handler;$/;"	v	class:RouteMatch
+has	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function has($name)$/;"	f	class:Request
+hasAcceptLanguage	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function hasAcceptLanguage()$/;"	f	class:Request
+hasAllowedSubdomain	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function hasAllowedSubdomain()$/;"	f	class:Request
+hasCookie	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function hasCookie($name)$/;"	f	class:Request
+hasGet	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function hasGet($name)$/;"	f	class:Request
+hasParam	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	private function hasParam($name)$/;"	f	class:Request
+hasPost	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function hasPost($name)$/;"	f	class:Request
+hasUri	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function hasUri($name)$/;"	f	class:Request
+headers	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^	private $headers = array();$/;"	v	class:RollingCurl
+headers	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurlRequest.php	/^	public $headers;$/;"	v	class:RollingCurlRequest
+headers	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $headers = array();$/;"	v	class:Response
+httpStatusCode	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $httpStatusCode = 200;$/;"	v	class:Response
+httpStatusCodes	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected static $httpStatusCodes = array($/;"	v	class:Response
+ignoredVariables	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	private $ignoredVariables = array($/;"	v	class:ErrorHandlerConsole
+ignoredVariables	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	private $ignoredVariables = array($/;"	v	class:ErrorHandlerFile
+indexController	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/IndexControllerTest.php	/^	private $indexController;$/;"	v	class:DhJasmin\\SystemApi\\Test\\Unit\\Controller\\IndexControllerTest
+init	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/DevHelper.php	/^	public static function init($serverType = self::SERVER_TYPE_FRONTEND)$/;"	f	class:DevHelper
+instance	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	protected static $instance;$/;"	v	class:Accounting
+instance	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/DomainGenerator.php	/^	private static $instance;$/;"	v	class:DomainGenerator
+instance	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected static $instance;$/;"	v	class:Application
+instances	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/ApiAbstract.php	/^	protected static $instances = array();$/;"	v	class:ApiAbstract
+isAjaxRequest	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function isAjaxRequest()$/;"	f	class:Request
+isCookiesDisabled	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $isCookiesDisabled = false;$/;"	v	class:Router
+isCookiesDisabled	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function isCookiesDisabled()$/;"	f	class:Router
+isHandlingSubDomains	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function isHandlingSubDomains()$/;"	f	class:Router
+isIndividual	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	protected $isIndividual = true;$/;"	v	class:AccountingTransaction
+isIndividual	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function isIndividual()$/;"	f	class:AccountingTransaction
+isObjectTypeValid	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected function isObjectTypeValid($objectParameter, $objectTypeInComment)$/;"	f	class:ControllerAbstract
+isReferrerOnSameDomain	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function isReferrerOnSameDomain($allowSubdomains = true)$/;"	f	class:Request
+isRequestGeneratedByRobot	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	private $isRequestGeneratedByRobot;$/;"	v	class:Request
+isRobotGenerated	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function isRobotGenerated()$/;"	f	class:Request
+isSecure	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function isSecure()$/;"	f	class:Request
+isSessionDisabled	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	private $isSessionDisabled = false;$/;"	v	class:Request
+isSessionDisabled	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function isSessionDisabled()$/;"	f	class:Request
+isSetCookieDisabled	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected static $isSetCookieDisabled = false;$/;"	v	class:Response
+isSubdomainBasedRoutingEnabled	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function isSubdomainBasedRoutingEnabled()$/;"	f	class:Router
+isUriTrimmable	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public $isUriTrimmable = true;$/;"	v	class:Router
+linkTransactionId	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	protected $linkTransactionId;$/;"	v	class:AccountingTransaction
+listeners	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected static $listeners = array();$/;"	v	class:Events
+logLevel	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/LoggerSyslog.php	/^	private $logLevel;$/;"	v	class:LoggerSyslog
+logPath	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	private $logPath;$/;"	v	class:ErrorHandlerFile
+loggers	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/SyslogApiQueue.php	/^	protected static $loggers = array();$/;"	v	class:SyslogApiQueue
+loggers	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/Log.php	/^	protected static $loggers = array();$/;"	v	class:Log
+match	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/routers/RouteMatch.php	/^	public function match()$/;"	f	class:RouteMatch
+maxSimultaneousConnections	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^	private $maxSimultaneousConnections = 5;$/;"	v	class:RollingCurl
+memberCookie	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	protected $memberCookie;$/;"	v	class:AccountingTransaction
+memberIp	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	protected $memberIp;$/;"	v	class:AccountingTransaction
+memberTypes	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/view-helper/RequestHelper.php	/^	protected static $memberTypes = array($/;"	v	class:RequestHelper
+method	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurlRequest.php	/^	public $method = 'get';$/;"	v	class:RollingCurlRequest
+multi	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/ApiCall.php	/^	public static function multi($requests, $callback = null)$/;"	f	class:ApiCall
+namespacePrefix	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/routing.php	/^$namespacePrefix = 'DhJasmin\\SystemApi\\Controller\\\\';$/;"	v
+node	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/prod/api.config.php	/^$node    = Config::get('system.node.current') === Node::LUBET ? 'lubet.' : '';$/;"	v
+openAuction	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function openAuction($auctionId)$/;"	f	class:Accounting
+options	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^	protected $options = array($/;"	v	class:RollingCurl
+options	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurlRequest.php	/^	public $options;$/;"	v	class:RollingCurlRequest
+options	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/LoggerSyslog.php	/^	private $options = array();$/;"	v	class:LoggerSyslog
+originalUri	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $originalUri;$/;"	v	class:Request
+pageId	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $pageId;$/;"	v	class:Application
+params	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $params = array();$/;"	v	class:Request
+params	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/routers/RouteMatch.php	/^	protected $params;$/;"	v	class:RouteMatch
+parseArguments	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	public static function parseArguments(array $argv)$/;"	f	class:Console
+partnerApiBaseDomain	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/dev/api.config.php	/^$partnerApiBaseDomain = $domainGenerator instanceof SingleLevelDomainGenerator$/;"	v
+post	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^	public function post($url, $postData = null, $headers = null, $options = null, $uid = null, $ra/;"	f	class:RollingCurl
+postData	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurlRequest.php	/^	public $postData;$/;"	v	class:RollingCurlRequest
+postData	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	private $postData = array();$/;"	v	class:Curl
+postDispatch	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^	protected function postDispatch()$/;"	f	class:DhJasmin\\SystemApi\\Controller\\CommonApiController
+preDispatch	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected function preDispatch(\/** @noinspection PhpUnusedParameterInspection ^_^ *\/$action)$/;"	f	class:ControllerAbstract
+preDispatch	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^	protected function preDispatch($action)$/;"	f	class:DhJasmin\\SystemApi\\Controller\\CommonApiController
+preDispatch	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiErrorController.php	/^	protected function preDispatch($action)$/;"	f	class:DhJasmin\\SystemApi\\Controller\\CommonApiErrorController
+pretence	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	protected $pretence;$/;"	v	class:AccountingTransaction
+pretenceDetails	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public static $pretenceDetails = array($/;"	v	class:Accounting
+pretenceNames	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/view-helper/CommonPretenceHelper.php	/^	private static $pretenceNames = array($/;"	v	class:CommonPretenceHelper
+processResult	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	protected function processResult($result)$/;"	f	class:Accounting
+processResult	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/ApiAbstract.php	/^	abstract protected function processResult($result);$/;"	f	class:ApiAbstract
+prototype	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/routers/NoRouteMatch.php	/^	protected static $prototype;$/;"	v	class:NoRouteMatch
+purchaseOrder	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	protected $purchaseOrder = Accounting::MEMBER_PURCHASE_ORDER_SPENDING;$/;"	v	class:AccountingTransaction
+raw	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurlRequest.php	/^	public $raw = false;$/;"	v	class:RollingCurlRequest
+redirectToRoute	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected function redirectToRoute($routeHandler,$/;"	f	class:ControllerAbstract
+redirectToUrl	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected function redirectToUrl($url, array $queryParams = array())$/;"	f	class:ControllerAbstract
+registerFormatHandler	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public static function registerFormatHandler($format, IResponseFormatHandler $handler)$/;"	f	class:Response
+removeErrorHandler	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function removeErrorHandler(ErrorHandlerAbstract $errorHandler)$/;"	f	class:Application
+removeErrorHandler	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function removeErrorHandler(ErrorHandlerAbstract $errorHandler)$/;"	f	class:ErrorHandlerPool
+removeEventListener	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public static function removeEventListener($name, $listener)$/;"	f	class:Events
+removeSubdomainMarker	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected function removeSubdomainMarker($routeUri)$/;"	f	class:Router
+request	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^	public function request($/;"	f	class:RollingCurl
+request	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $request;$/;"	v	class:Application
+request	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $request;$/;"	v	class:ControllerAbstract
+requestMap	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^	private $requestMap = array();$/;"	v	class:RollingCurl
+requestValues	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Functional/Controller/AccountingControllerTest.php	/^	private $requestValues = [];$/;"	v	namespace:DhJasmin\\SystemApi\\Test\\Functional\\Controller
+requests	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^	private $requests = array();$/;"	v	class:RollingCurl
+response	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $response;$/;"	v	class:Application
+response	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $response;$/;"	v	class:ControllerAbstract
+responseTimeZone	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	protected $responseTimeZone = 'UTC';$/;"	v	class:Accounting
+responses	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^	private $responses = array();$/;"	v	class:RollingCurl
+retryCount	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/ApiAbstract.php	/^	protected $retryCount = 1;$/;"	v	class:ApiAbstract
+revokeContinuousTransaction	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function revokeContinuousTransaction($/;"	f	class:Accounting
+rollingCurl	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^	private function rollingCurl()$/;"	f	class:RollingCurl
+roundMode	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	protected $roundMode = Accounting::ROUND_MODE_ROUND;$/;"	v	class:AccountingTransaction
+router	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $router;$/;"	v	class:Application
+router	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $router;$/;"	v	class:ControllerAbstract
+routes	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/routing.php	/^	$routes = [$/;"	v
+routes	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/routing.php	/^	$routes = array_combine($/;"	v
+routes	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $routes = array();$/;"	v	class:Router
+rows	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/LoggerAbstract.php	/^	protected $rows = array();$/;"	v	class:LoggerAbstract
+run	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/deploy.conf	/^run:jsm-api-system {$/;"	k
+run	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function run(array $routingTable, $sendResponse = true)$/;"	f	class:Application
+runApplication	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Functional/Controller/AccountingControllerTest.php	/^	private function runApplication()$/;"	f	namespace:DhJasmin\\SystemApi\\Test\\Functional\\Controller
+secureDomain	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/secure.config.php	/^	$secureDomain = 'secure.jasmin.com';$/;"	v
+secureDomain	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/secure.config.php	/^	$secureDomain = 'test.sd.dditservices.com';$/;"	v
+secureDomain	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/secure.config.php	/^$secureDomain = 'secure.livejasmin.com';$/;"	v
+secureDomain	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/dev/api.config.php	/^$secureDomain    = 'test.sd.dditservices.com';$/;"	v
+secureDomain	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/docker/api.config.php	/^$secureDomain    = 'test.sd.dditservices.com';$/;"	v
+secureRoute	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/secure.config.php	/^	$secureRoute  = 'jasmin';$/;"	v
+secureRoute	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/common/secure.config.php	/^$secureRoute  = 'livejasmin';$/;"	v
+send	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/Log.php	/^	public static function send()$/;"	f	class:Log
+send	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/LoggerAbstract.php	/^	public function send()$/;"	f	class:LoggerAbstract
+send	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function send()$/;"	f	class:Response
+sendHeaders	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected function sendHeaders()$/;"	f	class:Response
+sendMessageToSystem	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/SyslogApiQueue.php	/^	public static function sendMessageToSystem($destination, $system, $action, $data)$/;"	f	class:SyslogApiQueue
+sendMessages	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/SyslogApiQueue.php	/^	public static function sendMessages()$/;"	f	class:SyslogApiQueue
+serverValues	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Functional/Controller/AccountingControllerTest.php	/^	private $serverValues = [$/;"	v	namespace:DhJasmin\\SystemApi\\Test\\Functional\\Controller
+set	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function set($name, $value)$/;"	f	class:Request
+setAccountList	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function setAccountList($accountList)$/;"	f	class:AccountingTransaction
+setAction	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setAction($action)$/;"	f	class:Application
+setBandedAccountId	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function setBandedAccountId($bandedAccountId)$/;"	f	class:AccountingTransaction
+setCacheTtl	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setCacheTtl($cacheTtl)$/;"	f	class:Response
+setCharset	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setCharset($charset)$/;"	f	class:Response
+setCodec	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/ApiAbstract.php	/^	protected function setCodec($responseFormat)$/;"	f	class:ApiAbstract
+setComment	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function setComment($comment)$/;"	f	class:AccountingTransaction
+setContent	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setContent($content)$/;"	f	class:Response
+setController	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setController($controller)$/;"	f	class:Application
+setCookie	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setCookie(array $cookieData)$/;"	f	class:Curl
+setCookie	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public static function setCookie($/;"	f	class:Response
+setCookiesDisabled	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setCookiesDisabled()$/;"	f	class:Router
+setCookiesEnabled	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setCookiesEnabled()$/;"	f	class:Router
+setCreatedAt	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function setCreatedAt($createdAt)$/;"	f	class:AccountingTransaction
+setCreditType	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function setCreditType($creditType)$/;"	f	class:AccountingTransaction
+setDebug	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	public function setDebug($data)$/;"	f	class:ResponseFormatHandlerApi
+setDebugConsole	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setDebugConsole(DebugConsole $debugConsole = null)$/;"	f	class:Application
+setDebugConsole	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setDebugConsole(DebugConsole $debugConsole = null)$/;"	f	class:ErrorHandlerPool
+setDecimals	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function setDecimals($decimals)$/;"	f	class:AccountingTransaction
+setDevConfig	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/DevHelper.php	/^	public static function setDevConfig($session = null)$/;"	f	class:DevHelper
+setDomain	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function setDomain($domain)$/;"	f	class:AccountingTransaction
+setErrorCode	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	public function setErrorCode($code)$/;"	f	class:ResponseFormatHandlerApi
+setErrorController	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setErrorController($errorController)$/;"	f	class:Application
+setErrorType	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	public function setErrorType($type)$/;"	f	class:ResponseFormatHandlerApi
+setFile	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setFile(array $postData, array $fileData)$/;"	f	class:Curl
+setFilename	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setFilename($filename)$/;"	f	class:Response
+setForceTransaction	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function setForceTransaction($forceTransaction)$/;"	f	class:AccountingTransaction
+setFormat	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setFormat($format)$/;"	f	class:Response
+setGet	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setGet(array $getData)$/;"	f	class:Curl
+setHeader	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setHeader($name, $value, $replace = true)$/;"	f	class:Response
+setHttpStatusCode	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setHttpStatusCode($code)$/;"	f	class:Response
+setHttpUserPassword	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setHttpUserPassword($username, $password)$/;"	f	class:Curl
+setIndividual	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function setIndividual($isIndividual)$/;"	f	class:AccountingTransaction
+setIsSessionDisabled	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setIsSessionDisabled($isSessionDisabled)$/;"	f	class:Request
+setLinkTransactionId	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function setLinkTransactionId($linkTransactionId)$/;"	f	class:AccountingTransaction
+setLocationHeader	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setLocationHeader($location)$/;"	f	class:Response
+setMemberCookie	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function setMemberCookie($memberCookie)$/;"	f	class:AccountingTransaction
+setMemberIp	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function setMemberIp($memberIp)$/;"	f	class:AccountingTransaction
+setPageId	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setPageId($controller, $action)$/;"	f	class:Application
+setPost	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setPost(array $postData)$/;"	f	class:Curl
+setPretence	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function setPretence($pretence)$/;"	f	class:AccountingTransaction
+setPurchaseOrder	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function setPurchaseOrder($purchaseOrder)$/;"	f	class:AccountingTransaction
+setReferrerHeader	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setReferrerHeader($referrer)$/;"	f	class:Response
+setRequest	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setRequest(Request $request)$/;"	f	class:Application
+setRequestMethod	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Functional/Controller/AccountingControllerTest.php	/^	protected function setRequestMethod($requestMethod)$/;"	f	namespace:DhJasmin\\SystemApi\\Test\\Functional\\Controller
+setRequestParams	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	public function setRequestParams(array $params)$/;"	f	class:ResponseFormatHandlerApi
+setRequestUri	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Functional/Controller/AccountingControllerTest.php	/^	protected function setRequestUri($requestUri)$/;"	f	namespace:DhJasmin\\SystemApi\\Test\\Functional\\Controller
+setRequestValues	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Functional/Controller/AccountingControllerTest.php	/^	protected function setRequestValues(array $requestValues)$/;"	f	namespace:DhJasmin\\SystemApi\\Test\\Functional\\Controller
+setResponse	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setResponse(Response $response)$/;"	f	class:Application
+setResponse	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	public function setResponse($result)$/;"	f	class:ResponseFormatHandlerApi
+setResponseFormat	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/CommonApiController.php	/^	protected function setResponseFormat($responseFormat = null)$/;"	f	class:DhJasmin\\SystemApi\\Controller\\CommonApiController
+setRoundMode	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function setRoundMode($roundMode)$/;"	f	class:AccountingTransaction
+setRouter	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setRouter(Router $router)$/;"	f	class:Application
+setSourceAccountId	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function setSourceAccountId($sourceAccountId)$/;"	f	class:AccountingTransaction
+setSslVerifyMode	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setSslVerifyMode($mode)$/;"	f	class:Curl
+setStatus	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	public function setStatus($status)$/;"	f	class:ResponseFormatHandlerApi
+setTimeOut	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/ApiAbstract.php	/^	public function setTimeOut($timeOut)$/;"	f	class:ApiAbstract
+setTransactionSliceStart	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function setTransactionSliceStart($transactionId, $totalUnitCount)$/;"	f	class:Accounting
+setUnitCount	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function setUnitCount($unitCount)$/;"	f	class:AccountingTransaction
+setUnitDivisor	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function setUnitDivisor($unitDivisor)$/;"	f	class:AccountingTransaction
+setUnitPrice	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	public function setUnitPrice($unitPrice)$/;"	f	class:AccountingTransaction
+setUp	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/AccountingControllerTest.php	/^	public function setUp()$/;"	f	class:DhJasmin\\SystemApi\\Test\\Unit\\Controller\\AccountingControllerTest
+setUp	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/IndexControllerTest.php	/^	public function setUp()$/;"	f	class:DhJasmin\\SystemApi\\Test\\Unit\\Controller\\IndexControllerTest
+setUri	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public function setUri($uri)$/;"	f	class:Request
+setUserStatusType	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/response-format/ResponseFormatHandlerApi.php	/^	public function setUserStatusType($status)$/;"	f	class:ResponseFormatHandlerApi
+singleCurl	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^	private function singleCurl()$/;"	f	class:RollingCurl
+singleCurlHttpCode	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^	private $singleCurlHttpCode;$/;"	v	class:RollingCurl
+siteRegistration	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function siteRegistration($domain, $brand = null)$/;"	f	class:Accounting
+sortStripes	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	protected function sortStripes($firstStripe, $secondStripe)$/;"	f	class:Accounting
+sourceAccountId	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	protected $sourceAccountId;$/;"	v	class:AccountingTransaction
+staging	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/app/prod/api.config.php	/^$staging = isset($_SERVER['IS_STAGING']) ? 'staging.' : '';$/;"	v
+stdClass	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Functional/Controller/AccountingControllerTest.php	/^use stdClass;$/;"	a	namespace:DhJasmin\\SystemApi\\Test\\Functional\\Controller	typeref:unknown:stdClass
+subdomain	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $subdomain;$/;"	v	class:Request
+success	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/util/Console.php	/^	public static function success($msg = 'ok')$/;"	f	class:Console
+sync	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/deploy.conf	/^sync:jsm-api-system {$/;"	k
+syslogFacility	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	private $syslogFacility;$/;"	v	class:ErrorHandlerSyslog
+syslogTag	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	private $syslogTag;$/;"	v	class:ErrorHandlerSyslog
+tag	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/LoggerSyslog.php	/^	private $tag;$/;"	v	class:LoggerSyslog
+testActionsWithInCorrectParameters	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Functional/Controller/AccountingControllerTest.php	/^	public function testActionsWithInCorrectParameters(array $params, $url, $errorMessage)$/;"	f	namespace:DhJasmin\\SystemApi\\Test\\Functional\\Controller
+testGetBalanceWithoutAccountId	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/AccountingControllerTest.php	/^	public function testGetBalanceWithoutAccountId()$/;"	f	class:DhJasmin\\SystemApi\\Test\\Unit\\Controller\\AccountingControllerTest
+testIndexMethod	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/IndexControllerTest.php	/^	public function testIndexMethod()$/;"	f	class:DhJasmin\\SystemApi\\Test\\Unit\\Controller\\IndexControllerTest
+testIndexMethodWhenCallUriDontReturnJsonOutput	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/WL3ControllerTest.php	/^	public function testIndexMethodWhenCallUriDontReturnJsonOutput()$/;"	f	class:DhJasmin\\SystemApi\\Test\\Unit\\Controller\\WL3ControllerTest
+testInvalidDestinationOnIndexMethod	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/IndexControllerTest.php	/^	public function testInvalidDestinationOnIndexMethod()$/;"	f	class:DhJasmin\\SystemApi\\Test\\Unit\\Controller\\IndexControllerTest
+testInvalidSystemOnIndexMethod	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Unit/Controller/IndexControllerTest.php	/^	public function testInvalidSystemOnIndexMethod()$/;"	f	class:DhJasmin\\SystemApi\\Test\\Unit\\Controller\\IndexControllerTest
+textFormats	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected static $textFormats = array($/;"	v	class:Response
+timeOut	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/api/ApiAbstract.php	/^	protected $timeOut;$/;"	v	class:ApiAbstract
+timeZone	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	protected $timeZone = 'Europe\/Budapest';$/;"	v	class:Accounting
+timeout	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurl.php	/^	private $timeout = 5;$/;"	v	class:RollingCurl
+timezone	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/docker/php-fpm/php.ini	/^date.timezone = 'Europe\/Luxembourg'/;"	k	section:Date
+transaction	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function transaction($/;"	f	class:Accounting
+transactionRevoke	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function transactionRevoke($/;"	f	class:Accounting
+transactionServicePurchase	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function transactionServicePurchase($/;"	f	class:Accounting
+transactionSimple	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function transactionSimple($/;"	f	class:Accounting
+transactionSimpleAdmin	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function transactionSimpleAdmin($/;"	f	class:Accounting
+transactionSimpleData	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/test/Functional/Controller/AccountingControllerTest.php	/^	public function transactionSimpleData()$/;"	f	namespace:DhJasmin\\SystemApi\\Test\\Functional\\Controller
+triggerEvent	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	public static function triggerEvent($name, array $params = array())$/;"	f	class:Events
+uid	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurlRequest.php	/^	public $uid;$/;"	v	class:RollingCurlRequest
+unitCount	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	protected $unitCount = 1;$/;"	v	class:AccountingTransaction
+unitDivisor	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	protected $unitDivisor;$/;"	v	class:AccountingTransaction
+unitPrice	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/AccountingTransaction.php	/^	protected $unitPrice;$/;"	v	class:AccountingTransaction
+updateAccount	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/Accounting.php	/^	public function updateAccount($accountId, $status = null, $minimumBalance = null, $accountType /;"	f	class:Accounting
+uri	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	protected $uri;$/;"	v	class:Request
+url	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/drivers/curl/RollingCurlRequest.php	/^	public $url = '';$/;"	v	class:RollingCurlRequest
+url	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	private $url;$/;"	v	class:Curl
+urls	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/src/Controller/WL3Controller.php	/^	protected $urls = array($/;"	v	class:DhJasmin\\SystemApi\\Controller\\WL3Controller
+userTypes	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/view-helper/RequestHelper.php	/^	protected static $userTypes = array('guest', 'free', 'member');$/;"	v	class:RequestHelper
+wanInternalIps	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/minion/minion.php	/^	private $wanInternalIps = array($/;"	v	class:Request
+write	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/LoggerAbstract.php	/^	abstract protected function write();$/;"	f	class:LoggerAbstract
+write	/Users/ricardo.quintanilha/projects/livejasmin/jsm-system-api/lib/log/LoggerSyslog.php	/^	protected function write()$/;"	f	class:LoggerSyslog

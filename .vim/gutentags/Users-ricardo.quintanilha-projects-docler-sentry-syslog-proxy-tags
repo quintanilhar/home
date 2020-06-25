@@ -1,0 +1,419 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3480c6d/
+APPNAME	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/Makefile	/^APPNAME=sentry-syslog-proxy$/;"	m
+App	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^	App         string `sentry:"app,tags"`$/;"	m	struct:message.SysLog	typeref:typename:string
+ArbitraryArgumentLogFileTrace	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFileTrace.go	/^type ArbitraryArgumentLogFileTrace struct {$/;"	s	package:message
+Arguments	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFileTrace.go	/^	Arguments []interface{} `json:"args" php:"args"`$/;"	m	struct:message.LogFileTrace	typeref:typename:[]interface{}
+Arguments	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFileTrace.go	/^	Arguments interface{} `json:"args"`$/;"	m	struct:message.ArbitraryArgumentLogFileTrace	typeref:typename:interface{}
+BaseClientInterface	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/client/client.go	/^type BaseClientInterface interface {$/;"	i	package:client
+BaseClientMock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/BaseClientMock.go	/^type BaseClientMock struct {$/;"	s	package:mocks
+BuildSentryMessage	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^func (l *LogFile) BuildSentryMessage(event *sentry.Event) error {$/;"	f	unknown:message.LogFile	typeref:typename:error
+BuildSentryMessage	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^func (l *SysLog) BuildSentryMessage(event *sentry.Event) error {$/;"	f	unknown:message.SysLog	typeref:typename:error
+BuildSentryMessage	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/SentryEventBuilderMock.go	/^func (_m *SentryEventBuilderMock) BuildSentryMessage(packet *sentry.Event) error {$/;"	f	unknown:mocks.SentryEventBuilderMock	typeref:typename:error
+CacheInterface	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/cache/cache.go	/^type CacheInterface interface {$/;"	i	package:cache
+CacheMock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/CacheMock.go	/^type CacheMock struct {$/;"	s	package:mocks
+CaptureEvent	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/BaseClientMock.go	/^func (_m *BaseClientMock) CaptureEvent(event *sentry.Event, hint *sentry.EventHint, scope sentry/;"	f	unknown:mocks.BaseClientMock	typeref:typename:*sentry.EventID
+CaptureException	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/BaseClientMock.go	/^func (_m *BaseClientMock) CaptureException(exception error, hint *sentry.EventHint, scope sentry/;"	f	unknown:mocks.BaseClientMock	typeref:typename:*sentry.EventID
+Class	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFileTrace.go	/^	Class     string        `json:"class" php:"class"`$/;"	m	struct:message.LogFileTrace	typeref:typename:string
+Class	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFileTrace.go	/^	Class     string      `json:"class" php:"class"`$/;"	m	struct:message.ArbitraryArgumentLogFileTrace	typeref:typename:string
+ClientConfigInterface	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/common.go	/^type ClientConfigInterface interface {$/;"	i	package:config
+ClientConfigMock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ClientConfigMock.go	/^type ClientConfigMock struct {$/;"	s	package:mocks
+ClientInterface	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/client/client.go	/^type ClientInterface interface {$/;"	i	package:client
+ClientMock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ClientMock.go	/^type ClientMock struct {$/;"	s	package:mocks
+CompressFile	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/CompressorMock.go	/^func (_m *CompressorMock) CompressFile(path string, content []byte) error {$/;"	f	unknown:mocks.CompressorMock	typeref:typename:error
+CompressorMock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/CompressorMock.go	/^type CompressorMock struct {$/;"	s	package:mocks
+ContextType	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/client/message/sentry.go	/^type ContextType string$/;"	t	package:message
+DaemonConfigInterface	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/common.go	/^type DaemonConfigInterface interface {$/;"	i	package:config
+DaemonConfigMock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/DaemonConfigMock.go	/^type DaemonConfigMock struct {$/;"	s	package:mocks
+Date	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^	Date        string `syslog:"date" sentry:"date,extra"`$/;"	m	struct:message.SysLog	typeref:typename:string
+Datetime	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^	Datetime string `json:"datetime" php:"datetime"`$/;"	m	struct:message.Error	typeref:typename:string
+Debug	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/common.go	/^const Debug = false$/;"	c	package:config
+DebugMode	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^	DebugMode        bool \/\/ Print the debug information along with the parser execution$/;"	m	struct:phpserialize.PhpDecoder	typeref:typename:bool
+Decode	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^func (d *PhpDecoder) Decode(reader io.Reader, v interface{}) error {$/;"	f	unknown:phpserialize.PhpDecoder	typeref:typename:error
+Decode	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^func Decode(input []byte, v interface{}) error {$/;"	f	package:phpserialize	typeref:typename:error
+Decompress	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/compressor/gzip.go	/^func (gz *Gzip) Decompress(compressed io.Reader) (content []byte, err error) {$/;"	f	unknown:compressor.Gzip	typeref:typename:(content []byte, err error)
+DecompressFile	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/CompressorMock.go	/^func (_m *CompressorMock) DecompressFile(path string) ([]byte, error) {$/;"	f	unknown:mocks.CompressorMock	typeref:typename:([]byte, error)
+DecompressorInterface	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/compressor/compressor.go	/^type DecompressorInterface interface {$/;"	i	package:compressor
+DevClientConfig	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^type DevClientConfig struct{}$/;"	s	package:config
+DevDaemonConfig	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^type DevDaemonConfig struct{}$/;"	s	package:config
+DevHandlerConfig	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^type DevHandlerConfig struct{}$/;"	s	package:config
+DevParserConfig	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^type DevParserConfig struct{}$/;"	s	package:config
+DevServerConfig	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^type DevServerConfig struct{}$/;"	s	package:config
+EnableWorkerPool	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^func (c *DevServerConfig) EnableWorkerPool() bool {$/;"	f	unknown:config.DevServerConfig	typeref:typename:bool
+EnableWorkerPool	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^func (c *ProdServerConfig) EnableWorkerPool() bool {$/;"	f	unknown:config.ProdServerConfig	typeref:typename:bool
+EnableWorkerPool	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ServerConfigMock.go	/^func (_m *ServerConfigMock) EnableWorkerPool() bool {$/;"	f	unknown:mocks.ServerConfigMock	typeref:typename:bool
+Env	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/common.go	/^var Env = EnvDev \/\/ Set by the build flag$/;"	v	package:config
+EnvDev	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/common.go	/^const EnvDev = "dev"$/;"	c	package:config
+EnvProd	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/common.go	/^const EnvProd = "prod"$/;"	c	package:config
+Error	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/error.go	/^func (e *TemporaryError) Error() string {$/;"	f	unknown:file.TemporaryError	typeref:typename:string
+Error	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^	Error     *Error                 `json:"ERROR" php:"ERROR"`$/;"	m	struct:message.LogFile	typeref:typename:*Error
+Error	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^type Error struct {$/;"	s	package:message
+Error	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/error.go	/^func (e *InvalidUnmarshalError) Error() string {$/;"	f	unknown:phpserialize.InvalidUnmarshalError	typeref:typename:string
+ErrorLogFileBasePath	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^func (c *DevParserConfig) ErrorLogFileBasePath() string {$/;"	f	unknown:config.DevParserConfig	typeref:typename:string
+ErrorLogFileBasePath	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^func (c *ProdParserConfig) ErrorLogFileBasePath() string {$/;"	f	unknown:config.ProdParserConfig	typeref:typename:string
+ErrorLogFileBasePath	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ParserConfigMock.go	/^func (_m *ParserConfigMock) ErrorLogFileBasePath() string {$/;"	f	unknown:mocks.ParserConfigMock	typeref:typename:string
+ErrorLogFileExtension	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^func (c *DevParserConfig) ErrorLogFileExtension() string {$/;"	f	unknown:config.DevParserConfig	typeref:typename:string
+ErrorLogFileExtension	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^func (c *ProdParserConfig) ErrorLogFileExtension() string {$/;"	f	unknown:config.ProdParserConfig	typeref:typename:string
+ErrorLogFileExtension	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ParserConfigMock.go	/^func (_m *ParserConfigMock) ErrorLogFileExtension() string {$/;"	f	unknown:mocks.ParserConfigMock	typeref:typename:string
+File	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFileTrace.go	/^	File      string        `json:"file" php:"file"`$/;"	m	struct:message.LogFileTrace	typeref:typename:string
+File	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFileTrace.go	/^	File      string      `json:"file" php:"file"`$/;"	m	struct:message.ArbitraryArgumentLogFileTrace	typeref:typename:string
+Filename	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^	Filename    string `syslog:"file"`$/;"	m	struct:message.SysLog	typeref:typename:string
+Files	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^	Files     []string               `json:"FILES" php:"FILES"`$/;"	m	struct:message.LogFile	typeref:typename:[]string
+Format	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^	Format    string$/;"	m	struct:message.LogFile	typeref:typename:string
+Function	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFileTrace.go	/^	Function  string        `json:"function" php:"function"`$/;"	m	struct:message.LogFileTrace	typeref:typename:string
+Function	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFileTrace.go	/^	Function  string      `json:"function" php:"function"`$/;"	m	struct:message.ArbitraryArgumentLogFileTrace	typeref:typename:string
+Get	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/CacheMock.go	/^func (_m *CacheMock) Get(key string) ([]byte, error) {$/;"	f	unknown:mocks.CacheMock	typeref:typename:([]byte, error)
+Gzip	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/compressor/gzip.go	/^type Gzip struct{}$/;"	s	package:compressor
+Handle	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/handler/handler.go	/^func (h *Handler) Handle(input []byte) {$/;"	f	unknown:handler.Handler
+HandleQueue	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/handler/handler.go	/^func (h *Handler) HandleQueue(queue <-chan []byte) {$/;"	f	unknown:handler.Handler
+Handler	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/handler/handler.go	/^type Handler struct {$/;"	s	package:handler
+HandlerConfigInterface	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/common.go	/^type HandlerConfigInterface interface {$/;"	i	package:config
+HandlerConfigMock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/HandlerConfigMock.go	/^type HandlerConfigMock struct {$/;"	s	package:mocks
+HandlerInterface	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/handler/handler.go	/^type HandlerInterface interface {$/;"	i	package:handler
+Host	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^func (c *DevServerConfig) Host() string {$/;"	f	unknown:config.DevServerConfig	typeref:typename:string
+Host	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^func (c *ProdServerConfig) Host() string {$/;"	f	unknown:config.ProdServerConfig	typeref:typename:string
+Host	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^	Host        string `syslog:"host"`$/;"	m	struct:message.SysLog	typeref:typename:string
+Host	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ServerConfigMock.go	/^func (_m *ServerConfigMock) Host() string {$/;"	f	unknown:mocks.ServerConfigMock	typeref:typename:string
+Id	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^	Id       string `json:"id" php:"id"`$/;"	m	struct:message.Error	typeref:typename:string
+Id	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^	Id          string `syslog:"id"`$/;"	m	struct:message.SysLog	typeref:typename:string
+IgnoreCastErrors	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^	IgnoreCastErrors bool \/\/ Whether to fail on type mismatch or ignore and continue$/;"	m	struct:phpserialize.PhpDecoder	typeref:typename:bool
+IgnoredProjects	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^func (c *DevHandlerConfig) IgnoredProjects() map[string]bool {$/;"	f	unknown:config.DevHandlerConfig	typeref:typename:map[string]bool
+IgnoredProjects	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^func (c *ProdHandlerConfig) IgnoredProjects() map[string]bool {$/;"	f	unknown:config.ProdHandlerConfig	typeref:typename:map[string]bool
+IgnoredProjects	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/HandlerConfigMock.go	/^func (_m *HandlerConfigMock) IgnoredProjects() map[string]bool {$/;"	f	unknown:mocks.HandlerConfigMock	typeref:typename:map[string]bool
+InvalidUnmarshalError	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/error.go	/^type InvalidUnmarshalError struct {$/;"	s	package:phpserialize
+IsDev	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/common.go	/^func IsDev() bool {$/;"	f	package:config	typeref:typename:bool
+IsExtra	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/client/message/sentry.go	/^func (tt ContextType) IsExtra() bool {$/;"	f	unknown:message.ContextType	typeref:typename:bool
+IsProd	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/common.go	/^func IsProd() bool {$/;"	f	package:config	typeref:typename:bool
+IsTags	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/client/message/sentry.go	/^func (tt ContextType) IsTags() bool {$/;"	f	unknown:message.ContextType	typeref:typename:bool
+JsonParser	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/json.go	/^type JsonParser struct{}$/;"	s	package:parser
+LegacyApacheTagPrefix	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/syslog.go	/^const LegacyApacheTagPrefix = "apache2"$/;"	c	package:parser
+LevelMap	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^func (c *DevHandlerConfig) LevelMap() map[string]sentry.Level {$/;"	f	unknown:config.DevHandlerConfig	typeref:typename:map[string]sentry.Level
+LevelMap	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^func (c *ProdHandlerConfig) LevelMap() map[string]sentry.Level {$/;"	f	unknown:config.ProdHandlerConfig	typeref:typename:map[string]sentry.Level
+LevelMap	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/HandlerConfigMock.go	/^func (_m *HandlerConfigMock) LevelMap() map[string]sentry.Level {$/;"	f	unknown:mocks.HandlerConfigMock	typeref:typename:map[string]sentry.Level
+Line	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFileTrace.go	/^	Line      int           `json:"line" php:"line"`$/;"	m	struct:message.LogFileTrace	typeref:typename:int
+Line	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFileTrace.go	/^	Line      int         `json:"line" php:"line"`$/;"	m	struct:message.ArbitraryArgumentLogFileTrace	typeref:typename:int
+Line	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^	Line        string `syslog:"line"`$/;"	m	struct:message.SysLog	typeref:typename:string
+Listen	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ServerMock.go	/^func (_m *ServerMock) Listen() {$/;"	f	unknown:mocks.ServerMock
+Listen	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/server/tcp.go	/^func (s *TcpServer) Listen() {$/;"	f	unknown:server.TcpServer
+Listen	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/server/udp.go	/^func (s *UdpServer) Listen() {$/;"	f	unknown:server.UdpServer
+LogFile	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^type LogFile struct {$/;"	s	package:message
+LogFilePath	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^func (c *DevDaemonConfig) LogFilePath() string {$/;"	f	unknown:config.DevDaemonConfig	typeref:typename:string
+LogFilePath	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^func (c *ProdDaemonConfig) LogFilePath() string {$/;"	f	unknown:config.ProdDaemonConfig	typeref:typename:string
+LogFilePath	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^	LogFilePath string `sentry:"log_file_path,extra"`$/;"	m	struct:message.SysLog	typeref:typename:string
+LogFilePath	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/DaemonConfigMock.go	/^func (_m *DaemonConfigMock) LogFilePath() string {$/;"	f	unknown:mocks.DaemonConfigMock	typeref:typename:string
+LogFilePermissions	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^func (c *DevDaemonConfig) LogFilePermissions() os.FileMode {$/;"	f	unknown:config.DevDaemonConfig	typeref:typename:os.FileMode
+LogFilePermissions	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^func (c *ProdDaemonConfig) LogFilePermissions() os.FileMode {$/;"	f	unknown:config.ProdDaemonConfig	typeref:typename:os.FileMode
+LogFilePermissions	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/DaemonConfigMock.go	/^func (_m *DaemonConfigMock) LogFilePermissions() os.FileMode {$/;"	f	unknown:mocks.DaemonConfigMock	typeref:typename:os.FileMode
+LogFileTrace	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFileTrace.go	/^type LogFileTrace struct {$/;"	s	package:message
+LogPathProjectReplacements	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^func (c *DevParserConfig) LogPathProjectReplacements() map[string]string {$/;"	f	unknown:config.DevParserConfig	typeref:typename:map[string]string
+LogPathProjectReplacements	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^func (c *ProdParserConfig) LogPathProjectReplacements() map[string]string {$/;"	f	unknown:config.ProdParserConfig	typeref:typename:map[string]string
+LogPathProjectReplacements	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ParserConfigMock.go	/^func (_m *ParserConfigMock) LogPathProjectReplacements() map[string]string {$/;"	f	unknown:mocks.ParserConfigMock	typeref:typename:map[string]string
+MaxPriorityLevel	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^func (c *DevHandlerConfig) MaxPriorityLevel() string {$/;"	f	unknown:config.DevHandlerConfig	typeref:typename:string
+MaxPriorityLevel	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^func (c *ProdHandlerConfig) MaxPriorityLevel() string {$/;"	f	unknown:config.ProdHandlerConfig	typeref:typename:string
+MaxPriorityLevel	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/HandlerConfigMock.go	/^func (_m *HandlerConfigMock) MaxPriorityLevel() string {$/;"	f	unknown:mocks.HandlerConfigMock	typeref:typename:string
+Message	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^	Message  string `json:"message" php:"message"`$/;"	m	struct:message.Error	typeref:typename:string
+Message	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^	Message     string `syslog:"message"`$/;"	m	struct:message.SysLog	typeref:typename:string
+MessageType	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^	MessageType string `syslog:"messageType"`$/;"	m	struct:message.SysLog	typeref:typename:string
+Mock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/BaseClientMock.go	/^	mock.Mock$/;"	M	struct:mocks.BaseClientMock	typeref:typename:mock.Mock
+Mock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/CacheMock.go	/^	mock.Mock$/;"	M	struct:mocks.CacheMock	typeref:typename:mock.Mock
+Mock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ClientConfigMock.go	/^	mock.Mock$/;"	M	struct:mocks.ClientConfigMock	typeref:typename:mock.Mock
+Mock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ClientMock.go	/^	mock.Mock$/;"	M	struct:mocks.ClientMock	typeref:typename:mock.Mock
+Mock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/CompressorMock.go	/^	mock.Mock$/;"	M	struct:mocks.CompressorMock	typeref:typename:mock.Mock
+Mock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/DaemonConfigMock.go	/^	mock.Mock$/;"	M	struct:mocks.DaemonConfigMock	typeref:typename:mock.Mock
+Mock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/HandlerConfigMock.go	/^	mock.Mock$/;"	M	struct:mocks.HandlerConfigMock	typeref:typename:mock.Mock
+Mock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ParserConfigMock.go	/^	mock.Mock$/;"	M	struct:mocks.ParserConfigMock	typeref:typename:mock.Mock
+Mock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ParserMock.go	/^	mock.Mock$/;"	M	struct:mocks.ParserMock	typeref:typename:mock.Mock
+Mock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ReaderMock.go	/^	mock.Mock$/;"	M	struct:mocks.ReaderMock	typeref:typename:mock.Mock
+Mock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/SentryEventBuilderMock.go	/^	mock.Mock$/;"	M	struct:mocks.SentryEventBuilderMock	typeref:typename:mock.Mock
+Mock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ServerConfigMock.go	/^	mock.Mock$/;"	M	struct:mocks.ServerConfigMock	typeref:typename:mock.Mock
+Mock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ServerMock.go	/^	mock.Mock$/;"	M	struct:mocks.ServerMock	typeref:typename:mock.Mock
+Msg	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/error.go	/^	Msg string$/;"	m	struct:file.TemporaryError	typeref:typename:string
+NewClientConfig	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/common.go	/^func NewClientConfig() ClientConfigInterface {$/;"	f	package:config	typeref:typename:ClientConfigInterface
+NewDaemonConfig	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/common.go	/^func NewDaemonConfig() DaemonConfigInterface {$/;"	f	package:config	typeref:typename:DaemonConfigInterface
+NewGzip	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/compressor/gzip.go	/^func NewGzip() *Gzip {$/;"	f	package:compressor	typeref:typename:*Gzip
+NewHandler	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/handler/handler.go	/^func NewHandler(c config.HandlerConfigInterface, wg *sync.WaitGroup) HandlerInterface {$/;"	f	package:handler	typeref:typename:HandlerInterface
+NewHandlerConfig	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/common.go	/^func NewHandlerConfig() HandlerConfigInterface {$/;"	f	package:config	typeref:typename:HandlerConfigInterface
+NewInMemoryCache	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/cache/inMemory.go	/^func NewInMemoryCache() *bigcache.BigCache {$/;"	f	package:cache	typeref:typename:*bigcache.BigCache
+NewJsonParser	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/json.go	/^func NewJsonParser() *JsonParser {$/;"	f	package:parser	typeref:typename:*JsonParser
+NewParserConfig	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/common.go	/^func NewParserConfig() ParserConfigInterface {$/;"	f	package:config	typeref:typename:ParserConfigInterface
+NewPhpSerializeParser	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize.go	/^func NewPhpSerializeParser() *PhpSerializeParser {$/;"	f	package:parser	typeref:typename:*PhpSerializeParser
+NewReader	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/reader.go	/^func NewReader() *Reader {$/;"	f	package:file	typeref:typename:*Reader
+NewSentryClient	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/client/sentry.go	/^func NewSentryClient(c config.ClientConfigInterface) *SentryClient {$/;"	f	package:client	typeref:typename:*SentryClient
+NewSentryProxyDaemon	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/daemon.go	/^func NewSentryProxyDaemon() *SentryProxyDaemon {$/;"	f	package:main	typeref:typename:*SentryProxyDaemon
+NewServer	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/server/server.go	/^func NewServer(c config.ServerConfigInterface, stopCh chan bool, wg *sync.WaitGroup) ServerInter/;"	f	package:server	typeref:typename:ServerInterface
+NewServerConfig	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/common.go	/^func NewServerConfig() ServerConfigInterface {$/;"	f	package:config	typeref:typename:ServerConfigInterface
+NewSyslogParser	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/syslog.go	/^func NewSyslogParser(c config.ParserConfigInterface) *SyslogParser {$/;"	f	package:parser	typeref:typename:*SyslogParser
+NewTcpServer	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/server/tcp.go	/^func NewTcpServer(c config.ServerConfigInterface, stopCh chan bool, wg *sync.WaitGroup) *TcpServ/;"	f	package:server	typeref:typename:*TcpServer
+NewTestLogFileReaderHandler	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/handler/handler_test.go	/^func NewTestLogFileReaderHandler() *Handler {$/;"	f	package:handler	typeref:typename:*Handler
+NewUdpServer	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/server/udp.go	/^func NewUdpServer(c config.ServerConfigInterface, stopCh chan bool, wg *sync.WaitGroup) *UdpServ/;"	f	package:server	typeref:typename:*UdpServer
+Node	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^	Node        string `sentry:"node,tags"`$/;"	m	struct:message.SysLog	typeref:typename:string
+PRINT_INFO	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/Makefile	/^define PRINT_INFO$/;"	m
+Parse	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ParserMock.go	/^func (_m *ParserMock) Parse(input []byte) (message.SentryEventBuilderInterface, error) {$/;"	f	unknown:mocks.ParserMock	typeref:typename:(message.SentryEventBuilderInterface, error)
+Parse	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/json.go	/^func (p *JsonParser) Parse(input []byte) (message.SentryEventBuilderInterface, error) {$/;"	f	unknown:parser.JsonParser	typeref:typename:(message.SentryEventBuilderInterface, error)
+Parse	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize.go	/^func (p *PhpSerializeParser) Parse(input []byte) (message.SentryEventBuilderInterface, error) {$/;"	f	unknown:parser.PhpSerializeParser	typeref:typename:(message.SentryEventBuilderInterface, error)
+Parse	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/syslog.go	/^func (p *SyslogParser) Parse(input []byte) (message.SentryEventBuilderInterface, error) {$/;"	f	unknown:parser.SyslogParser	typeref:typename:(message.SentryEventBuilderInterface, error)
+ParserConfigInterface	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/common.go	/^type ParserConfigInterface interface {$/;"	i	package:config
+ParserConfigMock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ParserConfigMock.go	/^type ParserConfigMock struct {$/;"	s	package:mocks
+ParserInterface	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/parser.go	/^type ParserInterface interface {$/;"	i	package:parser
+ParserMock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ParserMock.go	/^type ParserMock struct {$/;"	s	package:mocks
+PhpDecoder	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^type PhpDecoder struct {$/;"	s	package:phpserialize
+PhpSerializeParser	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize.go	/^type PhpSerializeParser struct{}$/;"	s	package:parser
+PhpserializeTagName	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^const PhpserializeTagName = "php"$/;"	c	package:phpserialize
+PidFilePath	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^func (c *DevDaemonConfig) PidFilePath() string {$/;"	f	unknown:config.DevDaemonConfig	typeref:typename:string
+PidFilePath	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^func (c *ProdDaemonConfig) PidFilePath() string {$/;"	f	unknown:config.ProdDaemonConfig	typeref:typename:string
+PidFilePath	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/DaemonConfigMock.go	/^func (_m *DaemonConfigMock) PidFilePath() string {$/;"	f	unknown:mocks.DaemonConfigMock	typeref:typename:string
+PidFilePermissions	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^func (c *DevDaemonConfig) PidFilePermissions() os.FileMode {$/;"	f	unknown:config.DevDaemonConfig	typeref:typename:os.FileMode
+PidFilePermissions	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^func (c *ProdDaemonConfig) PidFilePermissions() os.FileMode {$/;"	f	unknown:config.ProdDaemonConfig	typeref:typename:os.FileMode
+PidFilePermissions	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/DaemonConfigMock.go	/^func (_m *DaemonConfigMock) PidFilePermissions() os.FileMode {$/;"	f	unknown:mocks.DaemonConfigMock	typeref:typename:os.FileMode
+Port	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^func (c *DevServerConfig) Port() string {$/;"	f	unknown:config.DevServerConfig	typeref:typename:string
+Port	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^func (c *ProdServerConfig) Port() string {$/;"	f	unknown:config.ProdServerConfig	typeref:typename:string
+Port	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ServerConfigMock.go	/^func (_m *ServerConfigMock) Port() string {$/;"	f	unknown:mocks.ServerConfigMock	typeref:typename:string
+PredefinedProjectFallback	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/common.go	/^const PredefinedProjectFallback = "fallback"$/;"	c	package:config
+PredefinedProjectInternal	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/common.go	/^const PredefinedProjectInternal = "internal"$/;"	c	package:config
+Priority	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^	Priority    string `syslog:"priority"`$/;"	m	struct:message.SysLog	typeref:typename:string
+ProcessName	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^func (c *DevDaemonConfig) ProcessName() string {$/;"	f	unknown:config.DevDaemonConfig	typeref:typename:string
+ProcessName	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^func (c *ProdDaemonConfig) ProcessName() string {$/;"	f	unknown:config.ProdDaemonConfig	typeref:typename:string
+ProcessName	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/DaemonConfigMock.go	/^func (_m *DaemonConfigMock) ProcessName() string {$/;"	f	unknown:mocks.DaemonConfigMock	typeref:typename:string
+ProdClientConfig	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^type ProdClientConfig struct{}$/;"	s	package:config
+ProdDaemonConfig	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^type ProdDaemonConfig struct{}$/;"	s	package:config
+ProdHandlerConfig	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^type ProdHandlerConfig struct{}$/;"	s	package:config
+ProdParserConfig	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^type ProdParserConfig struct{}$/;"	s	package:config
+ProdServerConfig	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^type ProdServerConfig struct{}$/;"	s	package:config
+ProjectDSNs	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^func (c *DevClientConfig) ProjectDSNs() map[string]string {$/;"	f	unknown:config.DevClientConfig	typeref:typename:map[string]string
+ProjectDSNs	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^func (c *ProdClientConfig) ProjectDSNs() map[string]string {$/;"	f	unknown:config.ProdClientConfig	typeref:typename:map[string]string
+ProjectDSNs	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ClientConfigMock.go	/^func (_m *ClientConfigMock) ProjectDSNs() map[string]string {$/;"	f	unknown:mocks.ClientConfigMock	typeref:typename:map[string]string
+ProjectsWithoutLogFiles	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^func (c *DevHandlerConfig) ProjectsWithoutLogFiles() map[string]bool {$/;"	f	unknown:config.DevHandlerConfig	typeref:typename:map[string]bool
+ProjectsWithoutLogFiles	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^func (c *ProdHandlerConfig) ProjectsWithoutLogFiles() map[string]bool {$/;"	f	unknown:config.ProdHandlerConfig	typeref:typename:map[string]bool
+ProjectsWithoutLogFiles	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/HandlerConfigMock.go	/^func (_m *HandlerConfigMock) ProjectsWithoutLogFiles() map[string]bool {$/;"	f	unknown:mocks.HandlerConfigMock	typeref:typename:map[string]bool
+QueueBufferSize	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^func (c *DevServerConfig) QueueBufferSize() int {$/;"	f	unknown:config.DevServerConfig	typeref:typename:int
+QueueBufferSize	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^func (c *ProdServerConfig) QueueBufferSize() int {$/;"	f	unknown:config.ProdServerConfig	typeref:typename:int
+QueueBufferSize	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ServerConfigMock.go	/^func (_m *ServerConfigMock) QueueBufferSize() int {$/;"	f	unknown:mocks.ServerConfigMock	typeref:typename:int
+Read	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/reader.go	/^func (r *Reader) Read(path string) ([]byte, error) {$/;"	f	unknown:file.Reader	typeref:typename:([]byte, error)
+Read	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ReaderMock.go	/^func (_m *ReaderMock) Read(path string) ([]byte, error) {$/;"	f	unknown:mocks.ReaderMock	typeref:typename:([]byte, error)
+ReadLocal	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/reader.go	/^func (r *Reader) ReadLocal(path string) ([]byte, error) {$/;"	f	unknown:file.Reader	typeref:typename:([]byte, error)
+Reader	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/reader.go	/^type Reader struct {$/;"	s	package:file
+ReaderInterface	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/reader.go	/^type ReaderInterface interface {$/;"	i	package:file
+ReaderMock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ReaderMock.go	/^type ReaderMock struct {$/;"	s	package:mocks
+Release	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^	Release     string$/;"	m	struct:message.SysLog	typeref:typename:string
+ReportInternalError	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/handler/handler.go	/^func (h *Handler) ReportInternalError(err error, additional ...map[string]string) {$/;"	f	unknown:handler.Handler
+SendEvent	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/client/sentry.go	/^func (c *SentryClient) SendEvent(event *sentry.Event, project string, app string, level sentry.L/;"	f	unknown:client.SentryClient	typeref:typename:*sentry.EventID
+SendEvent	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ClientMock.go	/^func (_m *ClientMock) SendEvent(event *sentry.Event, project string, app string, level sentry.Le/;"	f	unknown:mocks.ClientMock	typeref:typename:*sentry.EventID
+SendInternalError	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/client/sentry.go	/^func (c *SentryClient) SendInternalError(err error, tags map[string]string, extra map[string]int/;"	f	unknown:client.SentryClient
+SendInternalError	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ClientMock.go	/^func (_m *ClientMock) SendInternalError(err error, tags map[string]string, extra map[string]inte/;"	f	unknown:mocks.ClientMock
+SentryClient	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/client/sentry.go	/^type SentryClient struct {$/;"	s	package:client
+SentryEventBuilderInterface	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/builder.go	/^type SentryEventBuilderInterface interface {$/;"	i	package:message
+SentryEventBuilderMock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/SentryEventBuilderMock.go	/^type SentryEventBuilderMock struct {$/;"	s	package:mocks
+SentryProxyDaemon	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/daemon.go	/^type SentryProxyDaemon struct {$/;"	s	package:main
+ServerConfigInterface	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/common.go	/^type ServerConfigInterface interface {$/;"	i	package:config
+ServerConfigMock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ServerConfigMock.go	/^type ServerConfigMock struct {$/;"	s	package:mocks
+ServerInterface	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/server/server.go	/^type ServerInterface interface {$/;"	i	package:server
+ServerMock	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ServerMock.go	/^type ServerMock struct {$/;"	s	package:mocks
+Set	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/CacheMock.go	/^func (_m *CacheMock) Set(key string, value []byte) error {$/;"	f	unknown:mocks.CacheMock	typeref:typename:error
+SysLog	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^type SysLog struct {$/;"	s	package:message
+Syslog	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^	Syslog      string `syslog:"syslog" sentry:"syslog,extra"`$/;"	m	struct:message.SysLog	typeref:typename:string
+SyslogParser	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/syslog.go	/^type SyslogParser struct {$/;"	s	package:parser
+SysmonBaseUrl	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^func (c *DevParserConfig) SysmonBaseUrl() string {$/;"	f	unknown:config.DevParserConfig	typeref:typename:string
+SysmonBaseUrl	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^func (c *ProdParserConfig) SysmonBaseUrl() string {$/;"	f	unknown:config.ProdParserConfig	typeref:typename:string
+SysmonBaseUrl	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ParserConfigMock.go	/^func (_m *ParserConfigMock) SysmonBaseUrl() string {$/;"	f	unknown:mocks.ParserConfigMock	typeref:typename:string
+SysmonUrl	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^	SysmonUrl   string `sentry:"sysmon_url,extra"`$/;"	m	struct:message.SysLog	typeref:typename:string
+System	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^	System      string `sentry:"system,tags"`$/;"	m	struct:message.SysLog	typeref:typename:string
+Tag	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^	Tag         string `syslog:"tag"`$/;"	m	struct:message.SysLog	typeref:typename:string
+TcpServer	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/server/tcp.go	/^type TcpServer struct {$/;"	s	package:server
+TemporaryError	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/error.go	/^type TemporaryError struct {$/;"	s	package:file
+TestBuildSentryMessage	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile_test.go	/^func TestBuildSentryMessage(t *testing.T) {$/;"	f	package:message
+TestDecompress	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/compressor/gzip_test.go	/^func TestDecompress(t *testing.T) {$/;"	f	package:compressor
+TestJsonParserParse	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/json_test.go	/^func TestJsonParserParse(t *testing.T) {$/;"	f	package:parser
+TestJsonParserParseError	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/json_test.go	/^func TestJsonParserParseError(t *testing.T) {$/;"	f	package:parser
+TestNewGzip	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/compressor/gzip_test.go	/^func TestNewGzip(t *testing.T) {$/;"	f	package:compressor
+TestNewInMemoryCache	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/cache/inMemory_test.go	/^func TestNewInMemoryCache(t *testing.T) {$/;"	f	package:cache
+TestNewJsonParser	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/json_test.go	/^func TestNewJsonParser(t *testing.T) {$/;"	f	package:parser
+TestNewPhpSerializeParser	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize_test.go	/^func TestNewPhpSerializeParser(t *testing.T) {$/;"	f	package:parser
+TestNewReader	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/reader_test.go	/^func TestNewReader(t *testing.T) {$/;"	f	package:file
+TestNewReader	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/server/server_test.go	/^func TestNewReader(t *testing.T) {$/;"	f	package:server
+TestNewSentryClient	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/client/sentry_test.go	/^func TestNewSentryClient(t *testing.T) {$/;"	f	package:client
+TestNewSyslogParser	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/syslog_test.go	/^func TestNewSyslogParser(t *testing.T) {$/;"	f	package:parser
+TestPhpSerializeParserParse	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize_test.go	/^func TestPhpSerializeParserParse(t *testing.T) {$/;"	f	package:parser
+TestPhpSerializeParserParseError	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize_test.go	/^func TestPhpSerializeParserParseError(t *testing.T) {$/;"	f	package:parser
+TestSentryClientSendPacket	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/client/sentry_test.go	/^func TestSentryClientSendPacket(t *testing.T) {$/;"	f	package:client
+TestSyslogParserParse	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/syslog_test.go	/^func TestSyslogParserParse(t *testing.T) {$/;"	f	package:parser
+TestSyslogParserParseError	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/syslog_test.go	/^func TestSyslogParserParseError(t *testing.T) {$/;"	f	package:parser
+Traces	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^	Traces    []*LogFileTrace        `json:"TRACE" php:"TRACE"`$/;"	m	struct:message.LogFile	typeref:typename:[]*LogFileTrace
+Transport	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^func (c *DevServerConfig) Transport() string {$/;"	f	unknown:config.DevServerConfig	typeref:typename:string
+Transport	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^func (c *ProdServerConfig) Transport() string {$/;"	f	unknown:config.ProdServerConfig	typeref:typename:string
+Transport	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ServerConfigMock.go	/^func (_m *ServerConfigMock) Transport() string {$/;"	f	unknown:mocks.ServerConfigMock	typeref:typename:string
+Type	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFileTrace.go	/^	Type      string        `json:"type" php:"type"`$/;"	m	struct:message.LogFileTrace	typeref:typename:string
+Type	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFileTrace.go	/^	Type      string      `json:"type" php:"type"`$/;"	m	struct:message.ArbitraryArgumentLogFileTrace	typeref:typename:string
+Type	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/error.go	/^	Type reflect.Type$/;"	m	struct:phpserialize.InvalidUnmarshalError	typeref:typename:reflect.Type
+UdpServer	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/server/udp.go	/^type UdpServer struct {$/;"	s	package:server
+UnknownTagText	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/syslog.go	/^const UnknownTagText = "unknown"$/;"	c	package:parser
+UnmarshalJSON	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFileTrace.go	/^func (s *LogFileTrace) UnmarshalJSON(data []byte) error {$/;"	f	unknown:message.LogFileTrace	typeref:typename:error
+UnpackSyslog	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^func (l *SysLog) UnpackSyslog(input map[string]string) error {$/;"	f	unknown:message.SysLog	typeref:typename:error
+Username	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^	Username    string$/;"	m	struct:message.SysLog	typeref:typename:string
+Variables	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^	Variables map[string]interface{} `json:"VARS" php:"VARS"`$/;"	m	struct:message.LogFile	typeref:typename:map[string]interface{}
+WORKDIR	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/Makefile	/^WORKDIR=\/go\/src\/stash.doclerholding.com\/go\/$(APPNAME)$/;"	m
+WorkerCount	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^func (c *DevServerConfig) WorkerCount() int {$/;"	f	unknown:config.DevServerConfig	typeref:typename:int
+WorkerCount	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^func (c *ProdServerConfig) WorkerCount() int {$/;"	f	unknown:config.ProdServerConfig	typeref:typename:int
+WorkerCount	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ServerConfigMock.go	/^func (_m *ServerConfigMock) WorkerCount() int {$/;"	f	unknown:mocks.ServerConfigMock	typeref:typename:int
+WorkingDirectory	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^func (c *DevDaemonConfig) WorkingDirectory() string {$/;"	f	unknown:config.DevDaemonConfig	typeref:typename:string
+WorkingDirectory	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^func (c *ProdDaemonConfig) WorkingDirectory() string {$/;"	f	unknown:config.ProdDaemonConfig	typeref:typename:string
+WorkingDirectory	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/DaemonConfigMock.go	/^func (_m *DaemonConfigMock) WorkingDirectory() string {$/;"	f	unknown:mocks.DaemonConfigMock	typeref:typename:string
+bufferSize	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/server/udp.go	/^const bufferSize = 131072 \/\/ 128Kb$/;"	c	package:server
+build_dev	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/Makefile	/^build_dev:$/;"	t
+build_prod	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/Makefile	/^build_prod:$/;"	t
+cache	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/cache/cache.go	/^package cache$/;"	p
+cache	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/cache/inMemory.go	/^package cache$/;"	p
+cache	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/cache/inMemory_test.go	/^package cache$/;"	p
+cache	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/handler/handler.go	/^	cache             cache.CacheInterface$/;"	m	struct:handler.Handler	typeref:typename:cache.CacheInterface
+client	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/client/client.go	/^package client$/;"	p
+client	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/client/sentry.go	/^package client$/;"	p
+client	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/client/sentry_test.go	/^package client$/;"	p
+client	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/handler/handler.go	/^	client            client.ClientInterface$/;"	m	struct:handler.Handler	typeref:typename:client.ClientInterface
+collectStructTags	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^func (d *PhpDecoder) collectStructTags(t reflect.Type) structTags {$/;"	f	unknown:phpserialize.PhpDecoder	typeref:typename:structTags
+composeLogFilePath	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/syslog.go	/^func (p *SyslogParser) composeLogFilePath(project string, logId string) string {$/;"	f	unknown:parser.SyslogParser	typeref:typename:string
+composeSysmonUrl	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/syslog.go	/^func (p *SyslogParser) composeSysmonUrl(env string, project string, app string, logId string) st/;"	f	unknown:parser.SyslogParser	typeref:typename:string
+compressor	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/compressor/compressor.go	/^package compressor$/;"	p
+compressor	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/compressor/gzip.go	/^package compressor$/;"	p
+compressor	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/compressor/gzip_test.go	/^package compressor$/;"	p
+compressor	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/reader.go	/^	compressor compressor.DecompressorInterface$/;"	m	struct:file.Reader	typeref:typename:compressor.DecompressorInterface
+config	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/client/sentry.go	/^	config         config.ClientConfigInterface$/;"	m	struct:client.SentryClient	typeref:typename:config.ClientConfigInterface
+config	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/common.go	/^package config$/;"	p
+config	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/dev.go	/^package config$/;"	p
+config	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/config/prod.go	/^package config$/;"	p
+config	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/daemon.go	/^	config            config.DaemonConfigInterface$/;"	m	struct:main.SentryProxyDaemon	typeref:typename:config.DaemonConfigInterface
+config	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/handler/handler.go	/^	config            config.HandlerConfigInterface$/;"	m	struct:handler.Handler	typeref:typename:config.HandlerConfigInterface
+config	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/syslog.go	/^	config config.ParserConfigInterface$/;"	m	struct:parser.SyslogParser	typeref:typename:config.ParserConfigInterface
+config	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/server/tcp.go	/^	config            config.ServerConfigInterface$/;"	m	struct:server.TcpServer	typeref:typename:config.ServerConfigInterface
+config	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/server/udp.go	/^	config            config.ServerConfigInterface$/;"	m	struct:server.UdpServer	typeref:typename:config.ServerConfigInterface
+createContext	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/daemon.go	/^func (d *SentryProxyDaemon) createContext(c config.DaemonConfigInterface) *daemon.Context {$/;"	f	unknown:main.SentryProxyDaemon	typeref:typename:*daemon.Context
+createScanningError	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/error.go	/^func createScanningError(s *scanner.Scanner, msg string, lastTokenText string) error {$/;"	f	package:phpserialize	typeref:typename:error
+decode	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^func (d *PhpDecoder) decode(s *scanner.Scanner, v reflect.Value, skipVal bool) (err error) {$/;"	f	unknown:phpserialize.PhpDecoder	typeref:typename:(err error)
+decodeArray	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^func (d *PhpDecoder) decodeArray(s *scanner.Scanner, v reflect.Value, skipVal bool) (err error) /;"	f	unknown:phpserialize.PhpDecoder	typeref:typename:(err error)
+decodeBool	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^func (d *PhpDecoder) decodeBool(s *scanner.Scanner, v reflect.Value, skipVal bool) (err error) {$/;"	f	unknown:phpserialize.PhpDecoder	typeref:typename:(err error)
+decodeFloat	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^func (d *PhpDecoder) decodeFloat(s *scanner.Scanner, v reflect.Value, skipVal bool) (err error) /;"	f	unknown:phpserialize.PhpDecoder	typeref:typename:(err error)
+decodeInt	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^func (d *PhpDecoder) decodeInt(s *scanner.Scanner, v reflect.Value, skipVal bool) (err error) {$/;"	f	unknown:phpserialize.PhpDecoder	typeref:typename:(err error)
+decodeNull	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^func (d *PhpDecoder) decodeNull(s *scanner.Scanner, v reflect.Value, skipVal bool) (err error) {$/;"	f	unknown:phpserialize.PhpDecoder	typeref:typename:(err error)
+decodeObject	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^func (d *PhpDecoder) decodeObject(s *scanner.Scanner, v reflect.Value, skipVal bool) (err error)/;"	f	unknown:phpserialize.PhpDecoder	typeref:typename:(err error)
+decodeSerializable	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^func (d *PhpDecoder) decodeSerializable(s *scanner.Scanner, v reflect.Value, skipVal bool) (err /;"	f	unknown:phpserialize.PhpDecoder	typeref:typename:(err error)
+decodeSize	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^func (d *PhpDecoder) decodeSize(s *scanner.Scanner) (size int, err error) {$/;"	f	unknown:phpserialize.PhpDecoder	typeref:typename:(size int, err error)
+decodeString	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^func (d *PhpDecoder) decodeString(s *scanner.Scanner, v reflect.Value, skipVal bool) (err error)/;"	f	unknown:phpserialize.PhpDecoder	typeref:typename:(err error)
+decodeToken	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^func (d *PhpDecoder) decodeToken(s *scanner.Scanner, expected string) error {$/;"	f	unknown:phpserialize.PhpDecoder	typeref:typename:error
+docker_build_dev	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/Makefile	/^docker_build_dev:$/;"	t
+docker_build_prod	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/Makefile	/^docker_build_prod:$/;"	t
+docker_clean	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/Makefile	/^docker_clean:$/;"	t
+extraFieldType	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/client/message/sentry.go	/^const extraFieldType = "extra"$/;"	c	package:message
+fetch	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/reader.go	/^func (r *Reader) fetch(path string) (io.ReadCloser, error) {$/;"	f	unknown:file.Reader	typeref:typename:(io.ReadCloser, error)
+fetchTraces	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^func (l *LogFile) fetchTraces(event *sentry.Event) []*LogFileTrace {$/;"	f	unknown:message.LogFile	typeref:typename:[]*LogFileTrace
+fieldCache	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^	fieldCache sync.Map$/;"	m	struct:phpserialize.PhpDecoder	typeref:typename:sync.Map
+file	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/error.go	/^package file$/;"	p
+file	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/reader.go	/^package file$/;"	p
+file	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/reader_test.go	/^package file$/;"	p
+fmt	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/Makefile	/^fmt:$/;"	t
+formatJson	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/json.go	/^const formatJson = "json"$/;"	c	package:parser
+formatPhpSerialize	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize.go	/^const formatPhpSerialize = "php_serialize"$/;"	c	package:parser
+getClient	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/client/sentry.go	/^func (c *SentryClient) getClient(project string, app string) BaseClientInterface {$/;"	f	unknown:client.SentryClient	typeref:typename:BaseClientInterface
+getStructFieldName	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^func (d *PhpDecoder) getStructFieldName(typ reflect.Type, tag string) (string, bool) {$/;"	f	unknown:phpserialize.PhpDecoder	typeref:typename:(string, bool)
+gracefulShutdownHandler	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/daemon.go	/^func (d *SentryProxyDaemon) gracefulShutdownHandler(sig os.Signal) error {$/;"	f	unknown:main.SentryProxyDaemon	typeref:typename:error
+guessValue	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^func (d *PhpDecoder) guessValue(s *scanner.Scanner) (reflect.Value, error) {$/;"	f	unknown:phpserialize.PhpDecoder	typeref:typename:(reflect.Value, error)
+handler	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/handler/handler.go	/^package handler$/;"	p
+handler	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/handler/handler_test.go	/^package handler$/;"	p
+handler	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/server/tcp.go	/^	handler           handler.HandlerInterface$/;"	m	struct:server.TcpServer	typeref:typename:handler.HandlerInterface
+handler	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/server/udp.go	/^	handler           handler.HandlerInterface$/;"	m	struct:server.UdpServer	typeref:typename:handler.HandlerInterface
+headerVariablePrefix	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^const headerVariablePrefix = "HTTP_"$/;"	c	package:message
+install	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/Makefile	/^install:$/;"	t
+internalClient	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/client/sentry.go	/^	internalClient BaseClientInterface$/;"	m	struct:client.SentryClient	typeref:typename:BaseClientInterface
+isPriorityHigherThan	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/handler/handler.go	/^func (h *Handler) isPriorityHigherThan(input []byte, priority string) bool {$/;"	f	unknown:handler.Handler	typeref:typename:bool
+isSyslogMark	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/handler/handler.go	/^func (h *Handler) isSyslogMark(input []byte) (bool, error) {$/;"	f	unknown:handler.Handler	typeref:typename:(bool, error)
+jsonLogFileParser	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/handler/handler.go	/^	jsonLogFileParser parser.ParserInterface$/;"	m	struct:handler.Handler	typeref:typename:parser.ParserInterface
+lookWindowSize	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/error.go	/^const lookWindowSize = 100$/;"	c	package:phpserialize
+main	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/cmd/checkErrorLogFile/checkErrorLogFile.go	/^func main() {$/;"	f	package:main
+main	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/cmd/checkErrorLogFile/checkErrorLogFile.go	/^package main$/;"	p
+main	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/daemon.go	/^package main$/;"	p
+main	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/main.go	/^func main() {$/;"	f	package:main
+main	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/main.go	/^package main$/;"	p
+marshalMapToLogFileTraces	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^func (l *LogFile) marshalMapToLogFileTraces(container map[string]interface{}) []*LogFileTrace {$/;"	f	unknown:message.LogFile	typeref:typename:[]*LogFileTrace
+maxCacheSize	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/cache/inMemory.go	/^const maxCacheSize = 1024 \/\/ MB$/;"	c	package:cache
+maxRetryCount	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/reader.go	/^const maxRetryCount = 6$/;"	c	package:file
+maxValueCount	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/cache/inMemory.go	/^const maxValueCount = 1000$/;"	c	package:cache
+message	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/client/message/sentry.go	/^package message$/;"	p
+message	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/builder.go	/^package message$/;"	p
+message	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^package message$/;"	p
+message	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFileTrace.go	/^package message$/;"	p
+message	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile_test.go	/^package message$/;"	p
+message	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^package message$/;"	p
+mocks	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/BaseClientMock.go	/^package mocks$/;"	p
+mocks	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/CacheMock.go	/^package mocks$/;"	p
+mocks	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ClientConfigMock.go	/^package mocks$/;"	p
+mocks	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ClientMock.go	/^package mocks$/;"	p
+mocks	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/CompressorMock.go	/^package mocks$/;"	p
+mocks	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/DaemonConfigMock.go	/^package mocks$/;"	p
+mocks	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/HandlerConfigMock.go	/^package mocks$/;"	p
+mocks	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ParserConfigMock.go	/^package mocks$/;"	p
+mocks	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ParserMock.go	/^package mocks$/;"	p
+mocks	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ReaderMock.go	/^package mocks$/;"	p
+mocks	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/SentryEventBuilderMock.go	/^package mocks$/;"	p
+mocks	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ServerConfigMock.go	/^package mocks$/;"	p
+mocks	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/mocks/ServerMock.go	/^package mocks$/;"	p
+parseLogFile	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/handler/handler.go	/^func (h *Handler) parseLogFile(syslog *message.SysLog) (message.SentryEventBuilderInterface, err/;"	f	unknown:handler.Handler	typeref:typename:(message.SentryEventBuilderInterface, error)
+parseRelease	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/syslog.go	/^func (p *SyslogParser) parseRelease(filepath string) string {$/;"	f	unknown:parser.SyslogParser	typeref:typename:string
+parseTag	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/syslog.go	/^func (p *SyslogParser) parseTag(tag string) (string, string, string, error) {$/;"	f	unknown:parser.SyslogParser	typeref:typename:(string, string, string, error)
+parseUsername	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/syslog.go	/^func (p *SyslogParser) parseUsername(filepath string) string {$/;"	f	unknown:parser.SyslogParser	typeref:typename:string
+parser	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/json.go	/^package parser$/;"	p
+parser	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/json_test.go	/^package parser$/;"	p
+parser	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/parser.go	/^package parser$/;"	p
+parser	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize.go	/^package parser$/;"	p
+parser	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize_test.go	/^package parser$/;"	p
+parser	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/syslog.go	/^package parser$/;"	p
+parser	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/syslog_test.go	/^package parser$/;"	p
+phpLogFileParser	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/handler/handler.go	/^	phpLogFileParser  parser.ParserInterface$/;"	m	struct:handler.Handler	typeref:typename:parser.ParserInterface
+phpserialize	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^package phpserialize$/;"	p
+phpserialize	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/error.go	/^package phpserialize$/;"	p
+processAdditionalVariables	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^func (l *LogFile) processAdditionalVariables(event *sentry.Event) {$/;"	f	unknown:message.LogFile
+processBrowserInfo	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^func (l *LogFile) processBrowserInfo(event *sentry.Event, v interface{}) {$/;"	f	unknown:message.LogFile
+processCorrelationId	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^func (l *LogFile) processCorrelationId(event *sentry.Event, vars map[string]interface{}) {$/;"	f	unknown:message.LogFile
+processEnvironment	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^func (l *LogFile) processEnvironment(event *sentry.Event, vars map[string]interface{}) {$/;"	f	unknown:message.LogFile
+processGlobalValiables	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^func (l *LogFile) processGlobalValiables(event *sentry.Event) *sentry.Request {$/;"	f	unknown:message.LogFile	typeref:typename:*sentry.Request
+processRuntime	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^func (l *LogFile) processRuntime(event *sentry.Event, vars map[string]interface{}) {$/;"	f	unknown:message.LogFile
+processTraces	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^func (l *LogFile) processTraces(event *sentry.Event, traces []*LogFileTrace) {$/;"	f	unknown:message.LogFile
+processUrl	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^func (l *LogFile) processUrl(event *sentry.Event, vars map[string]interface{}) string {$/;"	f	unknown:message.LogFile	typeref:typename:string
+processUserIp	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^func (l *LogFile) processUserIp(event *sentry.Event, vars map[string]interface{}) {$/;"	f	unknown:message.LogFile
+projectClients	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/client/sentry.go	/^	projectClients map[string]BaseClientInterface$/;"	m	struct:client.SentryClient	typeref:typename:map[string]BaseClientInterface
+reader	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/handler/handler.go	/^	reader            file.ReaderInterface$/;"	m	struct:handler.Handler	typeref:typename:file.ReaderInterface
+registerSignals	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/daemon.go	/^func (d *SentryProxyDaemon) registerSignals() {$/;"	f	unknown:main.SentryProxyDaemon
+requestTimeout	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/reader.go	/^const requestTimeout = 10 * time.Second$/;"	c	package:file
+retrySleep	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/file/reader.go	/^const retrySleep = 10 * time.Second$/;"	c	package:file
+scrapeMessage	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/syslog.go	/^func (p *SyslogParser) scrapeMessage(original string) string {$/;"	f	unknown:parser.SyslogParser	typeref:typename:string
+sentryTagName	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^const sentryTagName = "sentry"$/;"	c	package:message
+server	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/daemon.go	/^	server            server.ServerInterface$/;"	m	struct:main.SentryProxyDaemon	typeref:typename:server.ServerInterface
+server	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/server/server.go	/^package server$/;"	p
+server	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/server/server_test.go	/^package server$/;"	p
+server	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/server/tcp.go	/^package server$/;"	p
+server	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/server/udp.go	/^package server$/;"	p
+set	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^func (d *PhpDecoder) set(receiver reflect.Value, value reflect.Value) {$/;"	f	unknown:phpserialize.PhpDecoder
+shardCount	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/cache/inMemory.go	/^const shardCount = 32$/;"	c	package:cache
+shouldStopChannel	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/daemon.go	/^	shouldStopChannel chan bool$/;"	m	struct:main.SentryProxyDaemon	typeref:typename:chan bool
+shouldStopChannel	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/server/tcp.go	/^	shouldStopChannel chan bool$/;"	m	struct:server.TcpServer	typeref:typename:chan bool
+shouldStopChannel	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/server/udp.go	/^	shouldStopChannel chan bool$/;"	m	struct:server.UdpServer	typeref:typename:chan bool
+shutdownHandler	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/daemon.go	/^func (d *SentryProxyDaemon) shutdownHandler(sig os.Signal) error {$/;"	f	unknown:main.SentryProxyDaemon	typeref:typename:error
+skipValue	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^func (d *PhpDecoder) skipValue(s *scanner.Scanner) error {$/;"	f	unknown:phpserialize.PhpDecoder	typeref:typename:error
+stringifyValue	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^func (l *LogFile) stringifyValue(v interface{}) string {$/;"	f	unknown:message.LogFile	typeref:typename:string
+structTags	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/phpserialize/decode.go	/^type structTags map[string]string$/;"	t	package:phpserialize
+superGlobalVariables	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/logFile.go	/^var superGlobalVariables = []string{"_GET", "_POST", "_COOKIE", "_SERVER"}$/;"	v	package:message
+syslogMarkFormat	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/handler/handler.go	/^const syslogMarkFormat = `^<\\d{1,3}>\\s?\\w{3}\\s+\\d{1,2}\\s+(?:[01]\\d|2[0-3]):(?:[0-5]\\d):(/;"	c	package:handler
+syslogMsgPipeFormat	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/syslog.go	/^const syslogMsgPipeFormat = `(?s)^(?P<syslog><(?P<priority>\\d{1,3})>\\s?(?P<date>\\w{3}\\s+\\d{/;"	c	package:parser
+syslogMsgSquareBracketFormat	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/syslog.go	/^const syslogMsgSquareBracketFormat = `(?s)^(?P<syslog><(?P<priority>\\d{1,3})>\\s?(?P<date>\\w{3/;"	c	package:parser
+syslogParser	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/handler/handler.go	/^	syslogParser      parser.ParserInterface$/;"	m	struct:handler.Handler	typeref:typename:parser.ParserInterface
+syslogPriorityFormat	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/handler/handler.go	/^const syslogPriorityFormat = `^<(\\d{1,3})>`$/;"	c	package:handler
+syslogScrapedDateFormat	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/syslog.go	/^const syslogScrapedDateFormat = `\\s\\d{4}-\\d{2}-\\d{2}\\s+(?:[01]\\d|2[0-3]):(?:[0-5]\\d):(?:[/;"	c	package:parser
+syslogTagFormat	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/parser/syslog.go	/^const syslogTagFormat = `^error_(?P<node>.*?)_(?P<project>.*?)_(?P<app>.+?)(\\[.*])?$`$/;"	c	package:parser
+syslogTagName	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^const syslogTagName = "syslog"$/;"	c	package:message
+tagsFieldType	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/client/message/sentry.go	/^const tagsFieldType = "tags"$/;"	c	package:message
+ttl	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/cache/inMemory.go	/^const ttl = 1 * time.Minute$/;"	c	package:cache
+unPackSentryTag	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/message/syslog.go	/^func (l *SysLog) unPackSentryTag(s string) (string, sentryMessage.ContextType) {$/;"	f	unknown:message.SysLog	typeref:typename:(string, sentryMessage.ContextType)
+unit_test	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/Makefile	/^unit_test:$/;"	t
+waitGroup	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/daemon.go	/^	waitGroup         *sync.WaitGroup$/;"	m	struct:main.SentryProxyDaemon	typeref:typename:*sync.WaitGroup
+waitGroup	/Users/ricardo.quintanilha/projects/docler/sentry-syslog-proxy/handler/handler.go	/^	waitGroup         *sync.WaitGroup$/;"	m	struct:handler.Handler	typeref:typename:*sync.WaitGroup

@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3480c6d/
+Date	/Users/ricardo.quintanilha/projects/b2b_apps/apps/common-docker/phpfpm/php.ini	/^[Date]$/;"	s
+PHP	/Users/ricardo.quintanilha/projects/b2b_apps/apps/common-docker/phpfpm/php.ini	/^[PHP]$/;"	s
+PHP-Security	/Users/ricardo.quintanilha/projects/b2b_apps/apps/common-docker/phpfpm/php.ini	/^[PHP-Security]$/;"	s
+Xdebug	/Users/ricardo.quintanilha/projects/b2b_apps/apps/common-docker/phpfpm/php.xdebug.ini	/^[Xdebug]$/;"	s
+allow_url_fopen	/Users/ricardo.quintanilha/projects/b2b_apps/apps/common-docker/phpfpm/php.ini	/^allow_url_fopen = On$/;"	k	section:PHP-Security
+allow_url_include	/Users/ricardo.quintanilha/projects/b2b_apps/apps/common-docker/phpfpm/php.ini	/^allow_url_include = Off$/;"	k	section:PHP-Security
+disable_functions	/Users/ricardo.quintanilha/projects/b2b_apps/apps/common-docker/phpfpm/php.ini	/^disable_functions = pcntl_alarm,pcntl_fork,pcntl_waitpid,pcntl_wait,pcntl_wifexited,pcntl_wifsto/;"	k	section:PHP-Security
+display_errors	/Users/ricardo.quintanilha/projects/b2b_apps/apps/common-docker/phpfpm/php.ini	/^display_errors = On$/;"	k	section:PHP
+error_reporting	/Users/ricardo.quintanilha/projects/b2b_apps/apps/common-docker/phpfpm/php.ini	/^error_reporting = E_ALL | E_STRICT$/;"	k	section:PHP
+html_errors	/Users/ricardo.quintanilha/projects/b2b_apps/apps/common-docker/phpfpm/php.ini	/^html_errors = Off$/;"	k	section:PHP
+log_errors	/Users/ricardo.quintanilha/projects/b2b_apps/apps/common-docker/phpfpm/php.ini	/^log_errors = Off$/;"	k	section:PHP
+log_errors_max_len	/Users/ricardo.quintanilha/projects/b2b_apps/apps/common-docker/phpfpm/php.ini	/^log_errors_max_len = 1024$/;"	k	section:PHP
+remote_autostart	/Users/ricardo.quintanilha/projects/b2b_apps/apps/common-docker/phpfpm/php.xdebug.ini	/^xdebug.remote_autostart = Off$/;"	k	section:Xdebug
+remote_enable	/Users/ricardo.quintanilha/projects/b2b_apps/apps/common-docker/phpfpm/php.xdebug.ini	/^xdebug.remote_enable = On$/;"	k	section:Xdebug
+timezone	/Users/ricardo.quintanilha/projects/b2b_apps/apps/common-docker/phpfpm/php.ini	/^date.timezone = 'UTC'$/;"	k	section:Date

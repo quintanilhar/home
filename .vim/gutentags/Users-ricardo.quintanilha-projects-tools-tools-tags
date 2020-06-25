@@ -1,0 +1,249 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3480c6d/
+Date	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/php.ini	/^[Date]$/;"	s
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:channel-api/activate_migrated_performer_channels
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:channel-api/channel_api_queue_manager
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:jsm-accounting-api/member_free_units_change_event_queue_processor
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:jsm-accounting-api/member_spending_event_queue_processor
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:jsm-batch/awards_api_game_closer
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:jsm-batch/campaign_api_collect_challenge_recurring_winners_processor
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:jsm-batch/campaign_api_credit_challenge_recurring_winners_processor
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:jsm-batch/campaign_api_evaluate_challengers_progress_processor
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:jsm-batch/dynamic-profile-picture
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:jsm-batch/loyalty_api_feedback_change_queue_processor
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:jsm-batch/loyalty_api_spending_queue_processor
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:jsm-batch/loyalty_api_user_maintenance
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:jsm-batch/magazine_api_synchronize_all_performers
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:jsm-batch/ongoing_show_cache_updater
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:jsm-batch/search_api_regular_performer_synchronization_initiator
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:jsm-batch/slideshow_generator_queue_handler
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:jsm-batch/story_api_expire_item_cron_handler
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:jsm-batch/subscription_api_cron_handler
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:jsm-batch/switchboard_api_stat_history_populator
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:jsm-batch/synchronize_msc_herald_performer_events
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:jsm-batch/user_api_free_peek_expiration_processor
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:mailer-api/mailer_api_queue_handler
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:msc-jasmin1-sync-batch/msc-jasmin1-sync-batch/sync_processor
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:msc-member-batch/generate_aggregated_income
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:mwh-media-api/media_task_queue_failure_detector
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:mwh-media-api/media_task_queue_feeder
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:mwh-media-api/media_task_queue_garbage_collector
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:mwh-media-api/media_task_queue_manager/others
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:mwh-media-api/media_task_queue_manager/video
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:mwh-media-api/media_task_queue_reaper/others
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:mwh-media-api/media_task_queue_reaper/video
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:payment-api/payment_api_queue_handler
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:search-api/search_api_queue_handler
+autorestart	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^autorestart: true$/;"	k	section:program:user-api/user_api_queue_handler
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=\/usr\/sbin\/syslog-ng --no-caps -F$/;"	k	section:program:syslog-ng
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "PATH="\/phpversions\/7.0:${PATH}" bash \/home\/shared.dev\/livejasmin\/jsm-batc/;"	k	section:program:jsm-batch/campaign_api_collect_challenge_recurring_winners_processor
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "PATH="\/phpversions\/7.0:${PATH}" bash \/home\/shared.dev\/livejasmin\/jsm-batc/;"	k	section:program:jsm-batch/campaign_api_credit_challenge_recurring_winners_processor
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "PATH="\/phpversions\/7.0:${PATH}" bash \/home\/shared.dev\/livejasmin\/jsm-batc/;"	k	section:program:jsm-batch/campaign_api_evaluate_challengers_progress_processor
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "PATH="\/phpversions\/7.0:${PATH}" bash \/home\/shared.dev\/livejasmin\/jsm-batc/;"	k	section:program:jsm-batch/loyalty_api_feedback_change_queue_processor
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "PATH="\/phpversions\/7.0:${PATH}" bash \/home\/shared.dev\/livejasmin\/jsm-batc/;"	k	section:program:jsm-batch/loyalty_api_spending_queue_processor
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "PATH="\/phpversions\/7.0:${PATH}" bash \/home\/shared.dev\/livejasmin\/jsm-batc/;"	k	section:program:jsm-batch/search_api_regular_performer_synchronization_initiator
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "PATH="\/phpversions\/7.0:${PATH}" bash \/home\/shared.dev\/livejasmin\/jsm-batc/;"	k	section:program:jsm-batch/switchboard_api_stat_history_populator
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "PATH="\/phpversions\/7.0:${PATH}" bash \/home\/shared.dev\/livejasmin\/jsm-batc/;"	k	section:program:jsm-batch/user_api_free_peek_expiration_processor
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do PATH="\/phpversions\/7.0:${PATH}" bash \/home\/shared.dev\/livej/;"	k	section:program:jsm-batch/loyalty_api_user_maintenance
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do PATH="\/phpversions\/7.0:${PATH}" bash \/home\/shared.dev\/livej/;"	k	section:program:jsm-batch/magazine_api_synchronize_all_performers
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do PATH="\/phpversions\/7.0:${PATH}" php \/home\/shared.dev\/liveja/;"	k	section:program:channel-api/channel_api_queue_manager
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do PATH="\/phpversions\/7.0:${PATH}" php \/home\/shared.dev\/liveja/;"	k	section:program:jsm-accounting-api/member_spending_event_queue_processor
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do PATH="\/phpversions\/7.0:${PATH}" php \/home\/shared.dev\/liveja/;"	k	section:program:jsm-batch/awards_api_game_closer
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do PATH="\/phpversions\/7.0:${PATH}" php \/home\/shared.dev\/liveja/;"	k	section:program:jsm-batch/dynamic-profile-picture
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do PATH="\/phpversions\/7.0:${PATH}" php \/home\/shared.dev\/liveja/;"	k	section:program:jsm-batch/ongoing_show_cache_updater
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do PATH="\/phpversions\/7.0:${PATH}" php \/home\/shared.dev\/liveja/;"	k	section:program:jsm-batch/slideshow_generator_queue_handler
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do PATH="\/phpversions\/7.0:${PATH}" php \/home\/shared.dev\/liveja/;"	k	section:program:jsm-batch/story_api_expire_item_cron_handler
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do PATH="\/phpversions\/7.0:${PATH}" php \/home\/shared.dev\/liveja/;"	k	section:program:jsm-batch/subscription_api_cron_handler
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do PATH="\/phpversions\/7.0:${PATH}" php \/home\/shared.dev\/liveja/;"	k	section:program:jsm-batch/synchronize_msc_herald_performer_events
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do PATH="\/phpversions\/7.0:${PATH}" php \/home\/shared.dev\/liveja/;"	k	section:program:payment-api/payment_api_queue_handler
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do PATH="\/phpversions\/7.2:${PATH}" php \/home\/shared.dev\/core\//;"	k	section:program:mwh-media-api/media_task_queue_failure_detector
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do PATH="\/phpversions\/7.2:${PATH}" php \/home\/shared.dev\/core\//;"	k	section:program:mwh-media-api/media_task_queue_feeder
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do PATH="\/phpversions\/7.2:${PATH}" php \/home\/shared.dev\/core\//;"	k	section:program:mwh-media-api/media_task_queue_garbage_collector
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do PATH="\/phpversions\/7.2:${PATH}" php \/home\/shared.dev\/core\//;"	k	section:program:mwh-media-api/media_task_queue_manager/others
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do PATH="\/phpversions\/7.2:${PATH}" php \/home\/shared.dev\/core\//;"	k	section:program:mwh-media-api/media_task_queue_manager/video
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do PATH="\/phpversions\/7.2:${PATH}" php \/home\/shared.dev\/core\//;"	k	section:program:mwh-media-api/media_task_queue_reaper/others
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do PATH="\/phpversions\/7.2:${PATH}" php \/home\/shared.dev\/core\//;"	k	section:program:mwh-media-api/media_task_queue_reaper/video
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do PATH="\/phpversions\/7.2:${PATH}" php \/home\/shared.dev\/liveja/;"	k	section:program:jsm-accounting-api/member_free_units_change_event_queue_processor
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do PATH="\/phpversions\/7.2:${PATH}" php \/home\/shared.dev\/liveja/;"	k	section:program:search-api/search_api_queue_handler
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do PATH="\/phpversions\/7.2:${PATH}" php \/home\/shared.dev\/liveja/;"	k	section:program:user-api/user_api_queue_handler
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do php \/home\/shared.dev\/livejasmin\/mailer-api\/master\/batch\/m/;"	k	section:program:mailer-api/mailer_api_queue_handler
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do php \/home\/shared.dev\/livejasmin\/msc-jasmin1-sync-batch\/mast/;"	k	section:program:msc-jasmin1-sync-batch/msc-jasmin1-sync-batch/sync_processor
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash -c "while true; do php \/home\/shared.dev\/livejasmin\/msc-member-batch\/master\/ba/;"	k	section:program:msc-member-batch/generate_aggregated_income
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash \/home\/shared.dev\/livejasmin\/channel-api\/master\/batch\/activate_migrated_perfo/;"	k	section:program:channel-api/activate_migrated_performer_channels
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=bash \/home\/shared.dev\/livejasmin\/channel-api\/master\/batch\/channel_api_queue_manag/;"	k	section:program:channel-api/channel_api_queue_manager
+command	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^command=cron -f$/;"	k	section:program:cron
+environment	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^environment=PATH="\/phpversions\/7.0:%(ENV_PATH)s"$/;"	k	section:program:channel-api/activate_migrated_performer_channels
+environment	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^environment=PATH="\/phpversions\/7.0:%(ENV_PATH)s"$/;"	k	section:program:channel-api/channel_api_queue_manager
+grace_time_in_s	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.others.queue.ini	/^grace_time_in_s                   = 120$/;"	k	section:queue.general
+grace_time_in_s	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.video.queue.ini	/^grace_time_in_s                   = 14400$/;"	k	section:queue.general
+monitor_refresh_interval_in_ms	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.others.queue.ini	/^monitor_refresh_interval_in_ms    = 1000000$/;"	k	section:queue.general
+monitor_refresh_interval_in_ms	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.video.queue.ini	/^monitor_refresh_interval_in_ms    = 1000000$/;"	k	section:queue.general
+nodaemon	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^nodaemon=true$/;"	k	section:supervisord
+process_management_interval_in_ms	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.others.queue.ini	/^process_management_interval_in_ms = 1000$/;"	k	section:queue.general
+process_management_interval_in_ms	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.video.queue.ini	/^process_management_interval_in_ms = 1000$/;"	k	section:queue.general
+process_start_up_threshold_in_s	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.others.queue.ini	/^process_start_up_threshold_in_s   = 5$/;"	k	section:queue.general
+process_start_up_threshold_in_s	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.video.queue.ini	/^process_start_up_threshold_in_s   = 5$/;"	k	section:queue.general
+program:channel-api/activate_migrated_performer_channels	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:channel-api\/activate_migrated_performer_channels]$/;"	s
+program:channel-api/channel_api_queue_manager	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:channel-api\/channel_api_queue_manager]$/;"	s
+program:cron	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:cron]$/;"	s
+program:jsm-accounting-api/member_free_units_change_event_queue_processor	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:jsm-accounting-api\/member_free_units_change_event_queue_processor]$/;"	s
+program:jsm-accounting-api/member_spending_event_queue_processor	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:jsm-accounting-api\/member_spending_event_queue_processor]$/;"	s
+program:jsm-batch/awards_api_game_closer	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:jsm-batch\/awards_api_game_closer]$/;"	s
+program:jsm-batch/campaign_api_collect_challenge_recurring_winners_processor	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:jsm-batch\/campaign_api_collect_challenge_recurring_winners_processor]$/;"	s
+program:jsm-batch/campaign_api_credit_challenge_recurring_winners_processor	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:jsm-batch\/campaign_api_credit_challenge_recurring_winners_processor]$/;"	s
+program:jsm-batch/campaign_api_evaluate_challengers_progress_processor	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:jsm-batch\/campaign_api_evaluate_challengers_progress_processor]$/;"	s
+program:jsm-batch/dynamic-profile-picture	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:jsm-batch\/dynamic-profile-picture]$/;"	s
+program:jsm-batch/loyalty_api_feedback_change_queue_processor	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:jsm-batch\/loyalty_api_feedback_change_queue_processor]$/;"	s
+program:jsm-batch/loyalty_api_spending_queue_processor	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:jsm-batch\/loyalty_api_spending_queue_processor]$/;"	s
+program:jsm-batch/loyalty_api_user_maintenance	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:jsm-batch\/loyalty_api_user_maintenance]$/;"	s
+program:jsm-batch/magazine_api_synchronize_all_performers	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:jsm-batch\/magazine_api_synchronize_all_performers]$/;"	s
+program:jsm-batch/ongoing_show_cache_updater	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:jsm-batch\/ongoing_show_cache_updater]$/;"	s
+program:jsm-batch/search_api_regular_performer_synchronization_initiator	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:jsm-batch\/search_api_regular_performer_synchronization_initiator]$/;"	s
+program:jsm-batch/slideshow_generator_queue_handler	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:jsm-batch\/slideshow_generator_queue_handler]$/;"	s
+program:jsm-batch/story_api_expire_item_cron_handler	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:jsm-batch\/story_api_expire_item_cron_handler]$/;"	s
+program:jsm-batch/subscription_api_cron_handler	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:jsm-batch\/subscription_api_cron_handler]$/;"	s
+program:jsm-batch/switchboard_api_stat_history_populator	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:jsm-batch\/switchboard_api_stat_history_populator]$/;"	s
+program:jsm-batch/synchronize_msc_herald_performer_events	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:jsm-batch\/synchronize_msc_herald_performer_events]$/;"	s
+program:jsm-batch/user_api_free_peek_expiration_processor	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:jsm-batch\/user_api_free_peek_expiration_processor]$/;"	s
+program:mailer-api/mailer_api_queue_handler	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:mailer-api\/mailer_api_queue_handler]$/;"	s
+program:msc-jasmin1-sync-batch/msc-jasmin1-sync-batch/sync_processor	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:msc-jasmin1-sync-batch\/msc-jasmin1-sync-batch\/sync_processor]$/;"	s
+program:msc-member-batch/generate_aggregated_income	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:msc-member-batch\/generate_aggregated_income]$/;"	s
+program:mwh-media-api/media_task_queue_failure_detector	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:mwh-media-api\/media_task_queue_failure_detector]$/;"	s
+program:mwh-media-api/media_task_queue_feeder	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:mwh-media-api\/media_task_queue_feeder]$/;"	s
+program:mwh-media-api/media_task_queue_garbage_collector	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:mwh-media-api\/media_task_queue_garbage_collector]$/;"	s
+program:mwh-media-api/media_task_queue_manager/others	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:mwh-media-api\/media_task_queue_manager\/others]$/;"	s
+program:mwh-media-api/media_task_queue_manager/video	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:mwh-media-api\/media_task_queue_manager\/video]$/;"	s
+program:mwh-media-api/media_task_queue_reaper/others	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:mwh-media-api\/media_task_queue_reaper\/others]$/;"	s
+program:mwh-media-api/media_task_queue_reaper/video	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:mwh-media-api\/media_task_queue_reaper\/video]$/;"	s
+program:payment-api/payment_api_queue_handler	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:payment-api\/payment_api_queue_handler]$/;"	s
+program:search-api/search_api_queue_handler	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:search-api\/search_api_queue_handler]$/;"	s
+program:syslog-ng	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:syslog-ng]$/;"	s
+program:user-api/user_api_queue_handler	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[program:user-api\/user_api_queue_handler]$/;"	s
+queue.general	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.others.queue.ini	/^[queue.general]$/;"	s
+queue.general	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.video.queue.ini	/^[queue.general]$/;"	s
+queue.source.audio	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.others.queue.ini	/^[queue.source.audio]$/;"	s
+queue.source.callback	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.others.queue.ini	/^[queue.source.callback]$/;"	s
+queue.source.file	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.others.queue.ini	/^[queue.source.file]$/;"	s
+queue.source.image	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.others.queue.ini	/^[queue.source.image]$/;"	s
+queue.source.video	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.video.queue.ini	/^[queue.source.video]$/;"	s
+runtime_limit_in_s	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.others.queue.ini	/^runtime_limit_in_s                = 86400$/;"	k	section:queue.general
+runtime_limit_in_s	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.video.queue.ini	/^runtime_limit_in_s                = 86400$/;"	k	section:queue.general
+silent_mode	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.others.queue.ini	/^silent_mode                       = true$/;"	k	section:queue.general
+silent_mode	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.video.queue.ini	/^silent_mode                       = true$/;"	k	section:queue.general
+sleep_between_runs_in_ms	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.others.queue.ini	/^sleep_between_runs_in_ms          = 10$/;"	k	section:queue.general
+sleep_between_runs_in_ms	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.video.queue.ini	/^sleep_between_runs_in_ms          = 10$/;"	k	section:queue.general
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:channel-api/activate_migrated_performer_channels
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:channel-api/channel_api_queue_manager
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:jsm-accounting-api/member_free_units_change_event_queue_processor
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:jsm-accounting-api/member_spending_event_queue_processor
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:jsm-batch/awards_api_game_closer
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:jsm-batch/campaign_api_collect_challenge_recurring_winners_processor
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:jsm-batch/campaign_api_credit_challenge_recurring_winners_processor
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:jsm-batch/campaign_api_evaluate_challengers_progress_processor
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:jsm-batch/dynamic-profile-picture
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:jsm-batch/loyalty_api_feedback_change_queue_processor
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:jsm-batch/loyalty_api_spending_queue_processor
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:jsm-batch/loyalty_api_user_maintenance
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:jsm-batch/magazine_api_synchronize_all_performers
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:jsm-batch/ongoing_show_cache_updater
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:jsm-batch/search_api_regular_performer_synchronization_initiator
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:jsm-batch/slideshow_generator_queue_handler
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:jsm-batch/story_api_expire_item_cron_handler
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:jsm-batch/subscription_api_cron_handler
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:jsm-batch/switchboard_api_stat_history_populator
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:jsm-batch/synchronize_msc_herald_performer_events
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:jsm-batch/user_api_free_peek_expiration_processor
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:mailer-api/mailer_api_queue_handler
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:msc-jasmin1-sync-batch/msc-jasmin1-sync-batch/sync_processor
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:msc-member-batch/generate_aggregated_income
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:mwh-media-api/media_task_queue_failure_detector
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:mwh-media-api/media_task_queue_feeder
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:mwh-media-api/media_task_queue_garbage_collector
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:mwh-media-api/media_task_queue_manager/others
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:mwh-media-api/media_task_queue_manager/video
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:mwh-media-api/media_task_queue_reaper/others
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:mwh-media-api/media_task_queue_reaper/video
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:payment-api/payment_api_queue_handler
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:search-api/search_api_queue_handler
+startsecs	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^startsecs: 1$/;"	k	section:program:user-api/user_api_queue_handler
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:channel-api/activate_migrated_performer_channels
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:channel-api/channel_api_queue_manager
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:cron
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:jsm-accounting-api/member_free_units_change_event_queue_processor
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:jsm-accounting-api/member_spending_event_queue_processor
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:jsm-batch/awards_api_game_closer
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:jsm-batch/campaign_api_collect_challenge_recurring_winners_processor
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:jsm-batch/campaign_api_credit_challenge_recurring_winners_processor
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:jsm-batch/campaign_api_evaluate_challengers_progress_processor
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:jsm-batch/dynamic-profile-picture
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:jsm-batch/loyalty_api_feedback_change_queue_processor
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:jsm-batch/loyalty_api_spending_queue_processor
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:jsm-batch/loyalty_api_user_maintenance
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:jsm-batch/magazine_api_synchronize_all_performers
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:jsm-batch/ongoing_show_cache_updater
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:jsm-batch/search_api_regular_performer_synchronization_initiator
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:jsm-batch/slideshow_generator_queue_handler
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:jsm-batch/story_api_expire_item_cron_handler
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:jsm-batch/subscription_api_cron_handler
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:jsm-batch/switchboard_api_stat_history_populator
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:jsm-batch/synchronize_msc_herald_performer_events
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:jsm-batch/user_api_free_peek_expiration_processor
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:mailer-api/mailer_api_queue_handler
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:msc-jasmin1-sync-batch/msc-jasmin1-sync-batch/sync_processor
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:msc-member-batch/generate_aggregated_income
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:mwh-media-api/media_task_queue_failure_detector
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:mwh-media-api/media_task_queue_feeder
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:mwh-media-api/media_task_queue_garbage_collector
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:mwh-media-api/media_task_queue_manager/others
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:mwh-media-api/media_task_queue_manager/video
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:mwh-media-api/media_task_queue_reaper/others
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:mwh-media-api/media_task_queue_reaper/video
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:payment-api/payment_api_queue_handler
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:search-api/search_api_queue_handler
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:program:user-api/user_api_queue_handler
+stderr_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stderr_logfile = syslog$/;"	k	section:supervisord
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:channel-api/activate_migrated_performer_channels
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:channel-api/channel_api_queue_manager
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:cron
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:jsm-accounting-api/member_free_units_change_event_queue_processor
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:jsm-accounting-api/member_spending_event_queue_processor
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:jsm-batch/awards_api_game_closer
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:jsm-batch/campaign_api_collect_challenge_recurring_winners_processor
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:jsm-batch/campaign_api_credit_challenge_recurring_winners_processor
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:jsm-batch/campaign_api_evaluate_challengers_progress_processor
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:jsm-batch/dynamic-profile-picture
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:jsm-batch/loyalty_api_feedback_change_queue_processor
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:jsm-batch/loyalty_api_spending_queue_processor
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:jsm-batch/loyalty_api_user_maintenance
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:jsm-batch/magazine_api_synchronize_all_performers
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:jsm-batch/ongoing_show_cache_updater
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:jsm-batch/search_api_regular_performer_synchronization_initiator
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:jsm-batch/slideshow_generator_queue_handler
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:jsm-batch/story_api_expire_item_cron_handler
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:jsm-batch/subscription_api_cron_handler
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:jsm-batch/switchboard_api_stat_history_populator
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:jsm-batch/synchronize_msc_herald_performer_events
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:jsm-batch/user_api_free_peek_expiration_processor
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:mailer-api/mailer_api_queue_handler
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:msc-jasmin1-sync-batch/msc-jasmin1-sync-batch/sync_processor
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:msc-member-batch/generate_aggregated_income
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:mwh-media-api/media_task_queue_failure_detector
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:mwh-media-api/media_task_queue_feeder
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:mwh-media-api/media_task_queue_garbage_collector
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:mwh-media-api/media_task_queue_manager/others
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:mwh-media-api/media_task_queue_manager/video
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:mwh-media-api/media_task_queue_reaper/others
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:mwh-media-api/media_task_queue_reaper/video
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:payment-api/payment_api_queue_handler
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:search-api/search_api_queue_handler
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:program:user-api/user_api_queue_handler
+stdout_logfile	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^stdout_logfile = syslog$/;"	k	section:supervisord
+supervisord	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/supervisord.conf	/^[supervisord]$/;"	s
+timezone	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/php.ini	/^date.timezone = 'Europe\/Luxembourg'$/;"	k	section:Date
+worker_capacity	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.others.queue.ini	/^worker_capacity                   = 100$/;"	k	section:queue.general
+worker_capacity	/Users/ricardo.quintanilha/projects/tools/tools/queues/conf/mwh.video.queue.ini	/^worker_capacity                   = 10$/;"	k	section:queue.general
